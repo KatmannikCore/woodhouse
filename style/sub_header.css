@@ -25,19 +25,19 @@
     border: 0px;
     margin-bottom: 16px;
 }
-.sub_header .order p:nth-child(1){
+.order p:nth-child(1){
     margin-top: 40px;
     font-weight: 500;
     font-size: 24px;   
     margin-bottom: 11px; 
 }
-.sub_header .order p:nth-child(2){
+ .order p:nth-child(2){
     font-weight: 500;
     font-size: 16px;
     color: #94ACBD;
     margin-bottom: 22px;
 }
-.sub_header .order p:last-child{
+ .order p:last-child{
     font-size: 13px;
     color: #96ABBE;
     margin-bottom: 37px;
@@ -48,7 +48,7 @@
     font-weight: 500;
     font-size: 16px;
 }
-.sub_header .order button{
+.order button{
     background:url('/img/header/order_button.png') ;
     width: 85%;
     height: 15%;
