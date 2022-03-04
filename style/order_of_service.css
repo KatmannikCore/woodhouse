@@ -1,0 +1,53 @@
+.order_of_service{
+    background: url('/img/order_service_backg.png');
+    height: 875px;
+    margin-top: 90px;
+}
+.order_of_service .big_text{
+    text-align: left;
+    margin-bottom: 25px;
+}
+.order_of_service > div{
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    max-width: 60%;
+    margin: 0 auto;
+}
+.order_of_service .text{
+    margin-top: 165px;
+    display: flex;
+    flex-direction: column;
+}
+.order_of_service div:first-child div{
+    display: flex;
+}
+.order_of_service div:first-child div img{
+    height: 9px;
+    position: relative;
+    top: 5px;
+    margin-right: 23px;
+}
+.order_of_service .gray_text:first-child{
+    text-align: left !important;
+
+}
+.order_of_service p:last-child{
+    text-align: left;
+}
+.order_of_service button{
+    width: 80%;
+}
+.last_input{
+    border-radius:15px !important;
+    height: 100px !important;
+}
+.order_of_service a::before{
+    content: url('/img/clip.png');
+    position: relative;
+    right: 7px;
+    top: 5px;
+}
+.order_of_service a{
+    color: #84C57A;
+}

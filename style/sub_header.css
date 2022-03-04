@@ -16,7 +16,7 @@
     text-align: center;
     margin-top: 78px;
 }
-.order input{
+.order input,input_gray{
     align-self: center;
     border-radius: 50px;
     width: 85%;
@@ -42,7 +42,7 @@
     color: #96ABBE;
     margin-bottom: 37px;
 }
-.order input::placeholder {
+.order input,.input_gray::placeholder {
     text-align: center;
     color: #96ABBE;
     font-weight: 500;
