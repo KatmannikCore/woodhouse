@@ -1,0 +1,55 @@
+.useful_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.useful_container > div{
+    background: #F9FAFB;
+    width: 360px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+.useful_container > div p, .useful_container > div a{
+    padding-left: 30px;
+}
+.useful_container img{
+    height: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.useful_container > div p:not(.gray_text){
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 22px;
+    margin-bottom: 12px;
+}
+.useful_container a{
+    margin-bottom: 30px;
+}
+.useful_container .gray_text{
+    text-align: left !important;
+}
+
+.useful_container a{
+    color: #84C57A;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.useful_container a::after{
+    content: url('/img/completed_projects/Arrow.png');
+    padding-left: 10px;
+}
+.big_text{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.useful_articles button{
+    display: block;
+    margin: 0 auto;
+}
