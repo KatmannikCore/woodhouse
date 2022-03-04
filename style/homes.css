@@ -6,7 +6,7 @@
     margin: auto;
     border-radius: 10px;
 }
-.homes  button{
+.button_one{
     background:url('/img/header/order_button.png') ;
     width: 500px;
     height: 70px;

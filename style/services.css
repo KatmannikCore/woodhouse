@@ -5,42 +5,44 @@
     max-width: 60%;
     margin: 0 auto;
 }
-.services .container{
+.container{
     display: flex;
     justify-content: space-between;
     margin: 0;
     padding: 0;
     flex-wrap: wrap;
 }
-.services .container div{
+.container div{
     display: flex;
     flex-direction: column;
     flex-basis: 20%;
 }
-.services .container div span{
+.container div span{
     background: linear-gradient(180deg, #ADD8A7 0%, #84C57A 100%);
     border-radius: 50%;
     align-self: flex-start;
     margin-left: 13px;
 }
-.services .container p{
+.container p{
     text-align: center;
     width: 130px;
 }
-.services .container div{
+.container div{
     padding-top: 55px;
 }
-.services .container:last-child div{
+.container:last-child div{
     padding-top: 5px;
 }
-.services .container div:nth-child(even){
+.container div:nth-child(even){
     margin-top: 40px;
 }
-.services .container div p:nth-child(2){
+.container div p:nth-child(2){
     font-weight: 600;
     font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
-.services .container div p:nth-child(3){
+.container div p:nth-child(3){
     font-weight: 500;
     font-size: 15px;    
     color: #96ABBE;
