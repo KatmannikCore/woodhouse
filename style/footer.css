@@ -1,0 +1,95 @@
+footer .contacts_container{
+    display: flex;
+    justify-content: space-around;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.our_contacts{
+    background: url('/img/footer/contacts/comtacts_backg.png');
+    background-repeat: no-repeat;
+    height: 580px;
+}
+.our_contacts p:first-child{
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+.contacts_container > div{
+    background-color: white;
+    width: 220px;
+    margin-left: 18px;
+    border-radius: 10px;
+    text-align: center;
+}
+.contacts_container > div img{
+    display: block;
+    margin: 0 auto;
+    transform: translateY(-50%);
+}
+.contacts_container > div > p:not(.gray_text){
+    font-weight: 600;
+    font-size: 18px;
+}
+.contacts_container > div > p{
+    position: relative;
+    bottom: 15px;
+}
+footer .footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+footer .footer > div{
+    display: flex;
+    flex-direction: column;
+}
+footer .footer button{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 11px;
+    margin-top: 20px;
+}
+footer .footer > div:nth-child(1) p{
+    text-align: left !important;
+    margin-top: 15px;
+}
+footer .footer > div:nth-child(1) p.logo{
+    font-weight: 600;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+footer .footer  p.logo span{
+    color: #84C57A;
+}
+footer .footer > div:nth-child(2){
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 207.5%;
+}
+footer .footer > div:nth-child(3) > div{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+footer .footer > div:nth-child(3) .number{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 21px;
+    text-align: center;
+}
+footer .footer > div:nth-child(4) a{
+    text-transform: uppercase;
+    margin-top: 15px;
+    color: #84C57A;
+}
+footer .footer > div:nth-child(4) a:last-child{
+
+}
+footer .footer > div:nth-child(4) p{
+    position: relative;
+    top: 35px;
+}
