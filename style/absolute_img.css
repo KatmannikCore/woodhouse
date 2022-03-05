@@ -8,6 +8,7 @@
     height: 200px;
 }
 .absolute_imgs {
+    width: 100%;
     position: absolute;
     left: 0;
     right: 0;

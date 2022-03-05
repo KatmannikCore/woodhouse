@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/style/header.css">
     <link rel="stylesheet" href="/style/footer.css">
@@ -14,20 +19,18 @@
     <link rel="stylesheet" href="/style/reviews.css">
     <link rel="stylesheet" href="/style/order_of_service.css">
     <link rel="stylesheet" href="/style/how_we_work.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style/information.css">
     <link rel="stylesheet" href="/style/completed_projects.css">
     <link rel="stylesheet" href="/style/useful_articles.css">
     <link rel="stylesheet" href="/style/order.css">
     <link rel="stylesheet" href="/style/absolute_img.css">
+    <link rel="stylesheet" href="/style/menu.css">
     <title>Document</title>
 </head>
 <body>
     <div class="absolute_imgs">
-        <img src="/img/absolute_img/1.png" alt="">
-        <img src="/img/absolute_img/2.png" alt="">
+        <img style="display: none;" src="/img/absolute_img/11.png" alt="">
+        <img style="display: none;"  src="/img/absolute_img/2.png" alt="">
         <img src="/img/absolute_img/3.png" alt="">
         <img src="/img/absolute_img/4.png" alt="">
         <img src="/img/absolute_img/5.png" alt="">
@@ -35,7 +38,44 @@
         <img src="/img/absolute_img/7.png" alt="">
         <img src="/img/absolute_img/8.png" alt="">
     </div>
+    <input type="checkbox" class="nav-toggle" id="nav-toggle" hidden>
+        <nav class="nav">
+            <div class="logo">
+                <p style="color: #fff;" class="woodhouse495">woodhouse495</p>
+                <p class="shelter" style="color: #96ABBE;">Строительно-отделочные <br> работы деревянных домов</p>
+                <hr>
+            </div>
+            <ul class="bar">
+                <li><a style="color: #fff;" class="first" href="">ГЛАВНАЯ</a></li>
+                <li><a style="color: #fff;" href="">ЧТО МЫ УМЕЕМ</a></li>
+                <li><a style="color: #fff;" href="" class="submenu-link">УCЛУГИ</a>
+                    <ul class="submenu">
+                        <li><a class="gray_text" href="">Шлифовка деревянного дома</a></li>
+                        <li><a href="">Покраска деревянного дома</a></li>
+                        <li><a href="">Окосячка деревянного дома</a></li>
+                        <li><a href="">Кровельные работы</a></li>
+                        <li><a href="">Реконструкция домов </a></li>
+                        <li><a href="">Строительство пристроек </a></li>
+                        <li><a href="">Отделка дома планкеном </a></li>
+                    </ul>
+                </li>
+                <li><a style="color: #fff;" href="">СТРОИТЕЛЬСТВО ДОМОВ</a></li>
+                <li><a style="color: #fff;" href="">ОТЗЫВЫ</a></li>
+                <li><a style="color: #fff;" href="">ЭТАПЫ РОБОТЫ</a></li>
+                <li><a style="color: #fff;" href="">ВЫПОЛНЕНЫЕ ПРОЕКТЫ</a></li>
+                <li><a style="color: #fff;" href="">КОНТАКРЫ</a></li>
+            </ul>
+            <hr>
+            <p class="phone" >+7 (916) 916-80-78</p>
+            <p class="gray_text" >info@woodhouse495.ru</p>
+            <button class="button_one">  Заказать звонок</button>
+            <hr>
+            <div class="social_media">
+                <img src="/img/header/social_media.png" alt="">
+            </div>
+        </nav>
     <header>
+        
         <div class="main_header">
             <p class="logo"><span>WOOD</span>HOUSE495</p>
             <p class="company">Строительно-отделочные <br> работы деревянных домов</p>
@@ -49,7 +89,7 @@
                 <p>+7 (916) 916-80-78</p>
                 <p>info@woodhouse495.ru</p>
             </div>
-            <button class="Request-call">Заказать званок</button>
+            <button class="Request-call"> <p>Заказать званок</p> </button>
         </div>
         <div class="line"></div>
         <div class="menu">

@@ -67,13 +67,13 @@ header .Request-call{
 header .line{
     border: 1px solid #DDE3ED;
 }
-header .menu a{
+header .menu a , .nav .menu a{
     text-decoration: none;
     font-weight: 600;
     font-size: 12px;
     color: #333333;
 }
-header .menu ul{
+header .menu ul , .nav .menu ul{
     display: flex;
     justify-content: space-between;
     height: 63px;
@@ -105,7 +105,6 @@ header .menu ul li a:hover{
     position: absolute;
     left: 32%;
     top: 20%;
-    align-items:flex-start !important;
     z-index: 5;
     height: 300px !important;
     opacity: 0;
@@ -114,7 +113,9 @@ header .menu ul li a:hover{
     transition: .5s ease-in-out;
     margin: 45px 34px 51px 34px;
 }
-
+header .submenu{
+    align-items:flex-start !important;
+}
 .submenu a {
     color: white;
     padding: 12px 15px;
@@ -127,4 +128,48 @@ li:hover .submenu {
 }
 .submenu-link:hover:after{
     content: url('/img/header/arrow2.png');
+}
+
+@media screen and (max-width: 1200px){
+    header{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 900px){
+    .main_header .company{
+        display: none;
+    }
+}
+@media screen and (max-width: 700px){
+    .main_header .social_media img{
+        display: none;
+    }
+    .menu a{
+        font-size: 8px !important;
+    }
+}
+.nav-toggle{
+    font-size: 22px;
+    font-weight: 400;
+    padding: 10px 45px;
+    border-radius: 60px;
+    background-color: #F1CDB3;
+    border: 3px #FDDCC4 solid;
+}
+
+@media screen and (max-width: 500px){
+    header .menu,header .contacts{
+        display: none ;
+    }
+    .Request-call{
+        background: url('/img/header/ring.png');
+        height: 42px;
+        width: 42px;
+        position: relative;
+        right: 50px;
+        transform: translateY(20%);
+    }
+    header .Request-call p {
+        display: none;
+    }
 }
