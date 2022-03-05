@@ -80,3 +80,6 @@ select {
   z-index: 100;
 }
 html, body { overflow-x:hidden; }
+body{
+  font-family: Montserrat, sans-serif;
+}
