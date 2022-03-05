@@ -2,6 +2,7 @@
     background: url('/img/order_service_backg.png');
     height: 875px;
     margin-top: 90px;
+    background-repeat: no-repeat ;
 }
 .order_of_service .big_text{
     text-align: left;
