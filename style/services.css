@@ -47,3 +47,13 @@
     font-size: 15px;    
     color: #96ABBE;
 }  
+@media screen and (max-width: 1100px){
+    .services > div{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 750px){
+    .services{
+        display: none;
+    }
+}

@@ -61,7 +61,6 @@
 }
 .additional-services .container_sub > div p{
     text-align: center;
-    width: 120px;
 }
 .additional-services .container_sub img{
     background: linear-gradient(180deg, #ADD8A7 0%, #84C57A 100%);
@@ -70,6 +69,7 @@
 }
 .additional-services .container_sub {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
 }
@@ -102,3 +102,56 @@
     height: 85px;
     margin-bottom: 50px;
 }
+@media screen and (max-width: 1350px){
+    .what_services > div{
+        padding-top: 110px;
+        max-width: 100%;
+    }
+    .container_main{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .what_services > div{
+        padding-top: 220px;
+    }
+    .what_services .container_main div{
+        width: 40%;
+    }
+    .what_services .container_main div p{
+        position: relative;
+     
+    }
+
+}
+@media screen and (max-width: 800px){
+    .additional-services .container_sub > div{
+        text-align: center;
+        flex-basis: 40%;
+    }
+    .additional-services .container_sub > div img{
+        margin: 0 auto;
+    }
+    .additional-services .container_sub{
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 550px){
+    .what_services .container_main div{
+        width: 90%;
+        justify-content: center;
+    } 
+    .what_services .container_main div p{
+        position: relative;
+        right: 0;
+    }
+    .what_services .container_main div img{
+        margin: 0 auto;
+    }
+    .what_services .container_main div a{
+        display: flex;
+        justify-content: center;
+    }
+}
+
