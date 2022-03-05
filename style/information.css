@@ -1,25 +1,26 @@
 .information{
     background: #F9F9F9;
 }
-.information div{
+.information > div{
     display: flex;
-    flex-wrap: wrap;
-    max-width: 60%;
+    max-width: 80%;
     margin: 0 auto;
-}
-.information div:first-child{
-    flex-basis: 40%;
+    justify-content: space-around;
 }
 
+
 .statistics{
+    flex-basis: 40%;
     display: flex;
     flex-wrap: wrap;
     align-self:flex-end;
+    justify-content: space-around;
 }
 .statistics div{
+    flex-basis: 40%;
     background: #fff;
     height: 177px;
-    width: 270px;
+    width: 250px;
     margin-top: 22px;
     border-radius: 8px;
 }
@@ -39,7 +40,10 @@
 }
 
 .description{
+    flex-basis: 40%;
     padding-top: 105px;
+    display: flex;
+    flex-direction: column;
 }
 .description p:first-child{
     font-size: 40px;
@@ -58,4 +62,32 @@
 }
 .description p:nth-child(3){
     padding-bottom: 20px;
+}
+@media screen and (max-width: 1200px){
+    .information > div{
+        max-width: 100%;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1050px){
+    .statistics div{
+        flex-basis: 100%;
+    }
+}
+@media screen and (max-width: 720px){
+    .information > div{
+        flex-direction: column;
+
+    }
+    .information > div .statistics > div{
+        text-align: center;
+        width: 200px;
+        margin-right: 160px;
+        margin-left: 160px;
+    } 
+    .information .description{
+        margin-right: 30px;
+        margin-left: 30px; 
+        padding-top: 60px;
+    }
 }
