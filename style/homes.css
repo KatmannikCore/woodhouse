@@ -60,3 +60,43 @@
     position: relative;
     top: 12px;
 }
+@media screen and (max-width: 1200px){
+    .homes > div{
+        position: static;
+        display: flex;
+        flex-direction: column;
+        margin-top: 90px;
+    }
+    .homes {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 900px){
+    .homes{
+        background: url('/img/homes/backg_mobail.png') no-repeat;
+        background-size: 100% 45% ;
+        background-position: 50% 100%;
+    }
+}
+@media screen and (max-width: 550px){
+    .absolute_imgs img:nth-child(4){
+        display: none;
+    }
+    .ways-of-homes > div{
+        flex-basis: 40%;
+    }
+    .ways-of-homes > div img{
+        margin: 0 auto;
+    }
+    .ways-of-homes{
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .homes{
+        text-align: center;
+    }
+    .homes {
+       height: 1500px;
+    }
+}
