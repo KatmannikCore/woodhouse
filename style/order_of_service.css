@@ -1,5 +1,5 @@
 .order_container{
-    background: url('/img/order_service_backg.png');
+    background: url('../img/order_service_backg.png');
     height: 875px;
     margin-top: 90px;
     background-repeat: no-repeat ;
@@ -56,7 +56,7 @@
     height: 100px !important;
 }
 .order a::before{
-    content: url('/img/clip.png');
+    content: url('../img/clip.png');
     position: relative;
     right: 7px;
     top: 5px;
@@ -72,7 +72,7 @@
 @media screen and (max-width: 750px){
     .order_container{
         flex-direction: column;
-        background: url('/img/backg_mobail_order.png');
+        background: url('../img/backg_mobail_order.png');
         background-repeat: no-repeat ;
         background-size: 100% 100%;
         height: 100%;

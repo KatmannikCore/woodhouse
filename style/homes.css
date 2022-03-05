@@ -1,5 +1,5 @@
 .homes{
-    background: url('/img/homes/background.png');
+    background: url('../img/homes/background.png');
     height: 980px;
     background-repeat: no-repeat;
     max-width: 95%;
@@ -7,7 +7,7 @@
     border-radius: 10px;
 }
 .button_one{
-    background:url('/img/header/order_button.png') ;
+    background:url('../img/header/order_button.png') ;
     width: 500px;
     height: 70px;
     background-size: 110% 110%;
@@ -74,7 +74,7 @@
 }
 @media screen and (max-width: 900px){
     .homes{
-        background: url('/img/homes/backg_mobail.png') no-repeat;
+        background: url('../img/homes/backg_mobail.png') no-repeat;
         background-size: 100% 45% ;
         background-position: 50% 100%;
     }

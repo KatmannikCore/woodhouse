@@ -42,7 +42,7 @@
     margin-top: 15px;
 }
 .useful_container a::after{
-    content: url('/img/completed_projects/Arrow.png');
+    content: url('../img/completed_projects/Arrow.png');
     padding-left: 10px;
 }
 .big_text{

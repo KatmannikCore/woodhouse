@@ -1,5 +1,5 @@
 .order_two{
-    background: url('/img/order_two/backg.png');
+    background: url('../img/order_two/backg.png');
     background-size: 100% 100%;
     height: 750px;
     margin-top: 105px;
@@ -39,7 +39,7 @@
 @media screen and (max-width: 750px){
     .order_container{
         flex-direction: column;
-        background: url('/img/backg_mobail_order2.png');
+        background: url('../img/backg_mobail_order2.png');
         background-repeat: no-repeat ;
         background-size: 100% 100%;
         height: 100%;

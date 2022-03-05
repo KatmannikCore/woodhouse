@@ -5,7 +5,7 @@ footer .contacts_container{
     margin: 0 auto;
 }
 .our_contacts{
-    background: url('/img/footer/contacts/comtacts_backg.png');
+    background: url('../img/footer/contacts/comtacts_backg.png');
     background-repeat: no-repeat;
     height: 580px;
 }
@@ -107,7 +107,7 @@ footer .footer > div:nth-child(4) p{
 }
 @media screen and (max-width: 750px){
     .our_contacts{
-        background: url('/img/footer/backg_mobail.png');
+        background: url('../img/footer/backg_mobail.png');
         background-repeat: no-repeat;
         background-size: 100% 25%;
         background-position: 50% 100%;

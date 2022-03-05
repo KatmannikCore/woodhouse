@@ -38,11 +38,11 @@
     top: 20px;
 }
 .what_services .container_main div a::after{
-    content: url('/img/what_services/Arrow.png');
+    content: url('../img/what_services/Arrow.png');
     margin-left: 8px;
 }
 .additional-services{
-    background: url('/img/what_services/Additional_services/bacround.png');
+    background: url('../img/what_services/Additional_services/bacround.png');
     padding-top: 60px;
     padding-bottom: 60px;
 }
