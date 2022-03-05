@@ -36,8 +36,20 @@
 .order_of_service p:last-child{
     text-align: left;
 }
-.order_of_service button{
-    width: 80%;
+
+.order_of_service .button_one{
+    position: relative;
+    left: 0;
+}
+.order_of_service button::placeholder{
+    color: #96ABBE;
+
+}
+.order_of_service .order .gray_text{
+    text-align: center !important;
+}
+.order_of_service .order{
+    padding-top: 35px;
 }
 .last_input{
     border-radius:15px !important;

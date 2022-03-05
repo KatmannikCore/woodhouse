@@ -1,0 +1,44 @@
+.absolute_imgs img:nth-child(1){
+    position: relative;
+    width: 355.37px;
+    height: 202.39px;
+    left: 1550.38px;
+    top: 764px;
+    width: 355px;
+    height: 200px;
+}
+.absolute_imgs {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+.absolute_imgs img:nth-child(2){
+    position: relative;
+    left: 380.38px;
+    top: 614px;
+    height: 90px;
+    width: 90px;
+}
+.absolute_imgs img{
+    position:absolute;
+}
+.absolute_imgs img:nth-child(3){
+    top: 4644.16px;
+}
+.absolute_imgs img:nth-child(4){
+    top: 6754px;
+}
+.absolute_imgs img:nth-child(5){
+    top: 7679.07px;
+}
+.absolute_imgs img:nth-child(6){
+    top: 9104px;
+}
+.absolute_imgs img:nth-child(7){
+    top: 10056px;
+}
+.absolute_imgs img:nth-child(8){
+    top: 12004px;
+}
