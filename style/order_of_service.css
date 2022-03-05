@@ -1,66 +1,109 @@
-.order_of_service{
+.order_container{
     background: url('/img/order_service_backg.png');
     height: 875px;
     margin-top: 90px;
     background-repeat: no-repeat ;
 }
-.order_of_service .big_text{
+.order_container .big_text{
     text-align: left;
     margin-bottom: 25px;
 }
-.order_of_service > div{
+.order_container > div{
     display: flex;
     background-repeat: no-repeat;
     justify-content: space-between;
     max-width: 60%;
     margin: 0 auto;
 }
-.order_of_service .text{
+.order_container .text{
     margin-top: 165px;
     display: flex;
     flex-direction: column;
 }
-.order_of_service div:first-child div{
+.order_container div:first-child div{
     display: flex;
 }
-.order_of_service div:first-child div img{
+.order_container div:first-child div img{
     height: 9px;
     position: relative;
     top: 5px;
     margin-right: 23px;
 }
-.order_of_service .gray_text:first-child{
+.order_container .gray_text:first-child{
     text-align: left !important;
 
 }
-.order_of_service p:last-child{
+.order_container p:last-child{
     text-align: left;
 }
 
-.order_of_service .button_one{
+.order_container .button_one{
     position: relative;
     left: 0;
 }
-.order_of_service button::placeholder{
+.order_container button::placeholder{
     color: #96ABBE;
 
 }
-.order_of_service .order .gray_text{
+.order_container .order .gray_text{
     text-align: center !important;
 }
-.order_of_service .order{
+.order_container .order{
     padding-top: 35px;
 }
 .last_input{
     border-radius:15px !important;
     height: 100px !important;
 }
-.order_of_service a::before{
+.order a::before{
     content: url('/img/clip.png');
     position: relative;
     right: 7px;
     top: 5px;
 }
-.order_of_service a{
+.order_container a{
     color: #84C57A;
+}
+@media screen and (max-width: 1100px){
+    .order_container > div{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 750px){
+    .order_container{
+        flex-direction: column;
+        background: url('/img/backg_mobail_order.png');
+        background-repeat: no-repeat ;
+        background-size: 100% 100%;
+        height: 100%;
+    }
+    .order_container .big_text,
+    .order_container p:last-child {
+        text-align: center !important;
+    }
+    .order_container p:last-child {
+        display: block;
+        margin: 0 auto;
+    }
+    .order_container .order{
+        margin: 0 auto;
+    }
+    .order_container .order{
+        margin-bottom: 160px;
+        margin-top: 30px;
+    }
+    .order_container div:first-child{
+        text-align: center;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width: 750px){
+    .order_container div:first-child img{
+        display: none;
+  
+    }
 }
