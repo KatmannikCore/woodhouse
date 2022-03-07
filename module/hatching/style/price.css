@@ -13,6 +13,9 @@
 .price table tr td:first-child p{
     width: 580px;
 }
+.price table tr td:last-child p{
+    width: 120px;
+}
 .price table tr td:first-child {
     padding: 26px 110px;
     font-weight: 500;
@@ -33,4 +36,35 @@
     left: 80%;
     z-index: -999;
     top: 3597px;
+}
+@media screen and (max-width: 1350px){
+    .price img{
+        display: none;
+    }
+    .price{
+        max-width: 100%;        
+    }
+    .price table tr td:first-child p{
+        width: 360px;   
+    }
+}
+@media screen and (max-width: 850px){
+    .price table tr td:first-child,.price table tr td:last-child  {
+        padding: 16px 30px;
+    }
+}
+@media screen and (max-width: 600px){
+    .price table tr td:first-child{
+        border: 0;
+    }
+    .price table tr{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .price table tr td:last-child p{
+        display: block;
+        position: relative;
+        top: -25px;
+    }
 }
