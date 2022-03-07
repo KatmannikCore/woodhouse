@@ -68,3 +68,25 @@
         top: -25px;
     }
 }
+@media screen and (max-width: 750px){
+    .sub_header div:first-child p:first-child:not(.big_text){
+        margin: 0 auto;
+
+    }
+    .sub_header div:first-child div{
+        display: flex;
+        margin: 0 auto;
+    }
+    .sub_header div:first-child div {
+        width: 100%;
+        padding-left: 0;
+    }
+}
+@media screen and (max-width: 650px){
+    .how_we_work .container > div span{
+        left: 0;
+    }
+    .grey_text{
+        width: 100% !important;
+    }
+}
