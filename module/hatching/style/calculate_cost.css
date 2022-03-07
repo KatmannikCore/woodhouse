@@ -204,7 +204,9 @@ form div:not(:first-child){
         flex-direction: column;
     }
     form{
-        padding-left: 50px;
+        align-items: flex-start;
+        display: block;
+        padding: 20px;
     }
     form .button_one{
         width: 300px;
