@@ -13,6 +13,33 @@
 .calculate_cost{
     background: url('../img/form/backg.png');
 }
+.calculate_cost .text{
+    flex-basis: 100%;
+    display: flex;
+    justify-content:center;
+    padding-top: 88px;
+    flex: 0 1 100%;
+}
+.calculate_cost .text .big_text{
+    margin: 0;
+    margin-top: 0;
+    width: 470px;
+    text-align: left;
+    margin-right: 127px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+.calculate_cost .text .gray_text{
+    width: 400px;
+    text-align: left;
+    margin-bottom: 63px;
+    display: flex;
+    align-items:flex-end;
+    margin: 0;
+    position: relative;
+    right: 70px;
+}
 .select-wrapper:hover {
     box-shadow: 0px 0px 3px gray;
 }
@@ -52,18 +79,8 @@ form {
     display: flex;
     width: 80%;
     margin: 0 auto;
-    padding-top: 88px;
+    flex-wrap: wrap;
     justify-content: center;
-}
-form .big_text{
-    margin-top: 0;
-    width: 470px;
-    text-align: left;
-}
-form .gray_text{
-    width: 400px;
-    text-align: left;
-    margin-bottom: 63px;
 }
 form .checkboxes{
     display: flex;
@@ -97,7 +114,7 @@ form .checkboxes > div > div label{
     left: 18px;
     top: 6px;
 }
-form > div:first-child{
+form > div:nth-child(2){
     margin-right: 57px;
 }
 form .number{
@@ -144,4 +161,66 @@ form .number img{
 form .checkboxes > div > div > div{
     margin-right: 75px;
     margin-bottom: 27px;
+}
+form div:not(:first-child){
+    flex: 0 1 30%;
+}
+
+@media screen and (max-width: 1350px){
+    form{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .calculate_cost .text{
+        flex-direction: column;
+    }
+    form{
+        flex-direction: column;
+        max-width: 100%;
+        align-items: center;
+    }
+    .calculate_cost .text .gray_text {
+        position: static;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto; 
+    }
+    .calculate_cost .text .big_text {
+        text-align: center;
+        display: block;
+        width:100% ;
+    }
+    form .sub_form{
+        margin-left: 57px;
+    }
+}
+@media screen and (max-width: 550px){
+    .calculate_cost .text .gray_text {
+        width: 100%;
+    }
+   
+    form .checkboxes {
+        flex-direction: column;
+    }
+    form{
+        padding-left: 50px;
+    }
+    form .button_one{
+        width: 300px;
+        position: static;
+    }
+    .select-wrapper,  
+    form .number {
+        width: 300px;
+    }
+
+    form > div:nth-child(2), 
+    form .sub_form {
+        margin-right: 0 ;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 450px){
+
 }
