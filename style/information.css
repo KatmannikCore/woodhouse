@@ -82,8 +82,8 @@
     .information > div .statistics > div{
         text-align: center;
         width: 200px;
-        margin-right: 160px;
-        margin-left: 160px;
+        margin-right: 10%;
+        margin-left: 10% ;
     } 
     .information .description{
         margin-right: 30px;
