@@ -1,0 +1,178 @@
+.what_services .container_main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.what_services{
+    background: #FFF;
+    position: relative;
+    bottom: 200px;
+    z-index: -10;
+}
+.what_services > div{
+    max-width: 60%;
+    margin: 0 auto;
+}
+.what_services .container_main div{
+    width: 20%;
+    margin-right: 40px;
+    margin-bottom: 45px;
+}
+.what_services .container_main div p:first-child{
+    font-weight: 500;
+    font-size: 16px;
+}
+.what_services .container_main div p:last-child{
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 16px;
+}
+.what_services .container_main div a{
+    color: #84C57A;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+}
+.what_services .container_main div a::after{
+    content: url('../img/what_services/Arrow.png');
+    margin-left: 5px;
+}
+.additional-services{
+    background: url('../img/what_services/Additional_services/bacround.png');
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.additional-services .container_sub{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.service_description{
+    text-align: center;
+    margin-top: 18px;;
+}
+.additional-services .container_sub > div img{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 18px;
+}
+.additional-services .container_sub > div p{
+    text-align: center;
+}
+.additional-services .container_sub img{
+    background: linear-gradient(180deg, #ADD8A7 0%, #84C57A 100%);
+    box-shadow: inset 7px 5px 18px rgba(255, 255, 255, 0.64);
+    border-radius: 50%;
+}
+.additional-services .container_sub {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.what_services p:first-child{
+    font-size: 40px;
+    text-align: center;
+}
+.what_services p:first-child span{
+    font-weight: 900;
+}
+.additional-services > p{
+    margin-bottom: 20px;
+}
+.what_services .container_sub p{
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.what_services p.descr{
+    text-align: center;
+    font-size: 18px;
+    color: #94ACBD;
+    margin-bottom: 37px;
+} 
+.show_more{
+    color: #F2A250;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: white;
+    border:1px solid #F2A250;
+    box-shadow: inset 10px 10px 18px rgba(255, 255, 255, 0.34);
+    border-radius: 49px;
+    width: 310px;
+    height: 85px;
+    margin-bottom: 50px;
+}
+@media screen and (max-width: 1350px){
+    .what_services > div{
+        padding-top: 110px;
+        max-width: 100%;
+    }
+    .container_main{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .what_services > div{
+        padding-top: 220px;
+    }
+    .what_services .container_main div{
+        width: 40%;
+    }
+    .what_services .container_main div p{
+        position: relative;
+     
+    }
+
+}
+@media screen and (max-width: 800px){
+    .additional-services .container_sub > div{
+        text-align: center;
+        flex-basis: 40%;
+    }
+    .additional-services .container_sub > div img{
+        margin: 0 auto;
+    }
+    .additional-services .container_sub{
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 550px){
+    .what_services .container_main{
+        display: block;
+    }
+    .what_services .container_main div{
+        width: 100%;
+        justify-content: center;
+    } 
+    .what_services .container_main div p{
+        position: relative;
+        right: 0;
+    }
+    .what_services .container_main div img{
+        margin: 0 auto;
+    }
+    .what_services .container_main div a{
+        display: flex;
+        justify-content: center;
+    }
+    .service_description{
+        width: 200px;
+        margin: auto;
+        margin-top: 18px;
+    }
+    .show_more {
+        display: block;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .what_services .container_sub{
+        justify-content: space-around;
+    }
+}
+

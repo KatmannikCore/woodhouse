@@ -1,0 +1,231 @@
+
+.select-wrapper {
+    position: relative;
+    margin: 20px 0;
+    border: 1px solid #96ABBE;
+    border-radius: 3px;
+    color: #96ABBE;
+    font-weight: 500;
+    font-size: 15px;
+    width: 450px;
+    height: 57px;
+}
+.calculate_cost{
+    background: url('../img/form/backg.png');
+}
+.calculate_cost .text{
+    flex-basis: 100%;
+    display: flex;
+    justify-content:center;
+    padding-top: 88px;
+    flex: 0 1 100%;
+}
+.calculate_cost .text .big_text{
+    margin: 0;
+    margin-top: 0;
+    width: 470px;
+    text-align: left;
+    margin-right: 127px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+.calculate_cost .text .gray_text{
+    width: 400px;
+    text-align: left;
+    margin-bottom: 63px;
+    display: flex;
+    align-items:flex-end;
+    margin: 0;
+    position: relative;
+    right: 70px;
+}
+.select-wrapper:hover {
+    box-shadow: 0px 0px 3px gray;
+}
+  
+.select-wrapper select {
+    color: #96ABBE;
+    font-weight: 500;
+    font-size: 15px;
+    width: 450px;
+    height: 57px;
+    padding: 20px 50px;
+    background: transparent;
+    border: 0;
+    appearance: none;            /* remove arrow        */
+    -webkit-appearance: none;    /* remove arrow Chrome */
+    -moz-appearance: none;       /* remove arrow FF     */
+}
+.select-wrapper select::-ms-expand{
+    display: none;             /* remove arrow IE     */
+}
+  
+.select-arrow-3 {
+    position: absolute;
+    border: 6px solid transparent; 
+    border-bottom: 0;
+    right: 28px;
+}
+.select-arrow-3:nth-child(1) {
+    top: 25px;
+    border-top-color: #96ABBE;
+}
+.select-arrow-3:nth-child(2) {
+    top: 22px;
+    border-top-color: #FFF;
+}
+form {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+form .checkboxes{
+    display: flex;
+}
+form .checkboxes > div > div{
+    display: flex;
+    flex-direction: column;
+
+}
+form .checkboxes > div > div > div{
+    display: flex;
+}
+form .service{
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    margin-top: 46px;
+}
+form input[type='checkbox']{
+    width: 29px;
+    height: 29px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+form .checkboxes > div > div label{
+    color: #96ABBE;
+    font-weight: 500;
+    font-size: 15px;
+    position: relative;
+    left: 18px;
+    top: 6px;
+}
+form > div:nth-child(2){
+    margin-right: 57px;
+}
+form .number{
+    display: flex;
+    width: 450px;
+    height: 57px;
+}
+form .number input[type='text']{
+    width: 350px;
+    border: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #96ABBE;
+    font-weight: 500;
+    font-size: 15px;
+}
+form .minus{
+    width: 57px;
+    height: 59px;
+    background: #F4F7FA;
+    border: 1px solid #eaeef2;
+    box-sizing: border-box;
+    border-radius: 8px 0px 0px 8px;
+}
+form .plus{
+    background: #F4F7FA;
+    width: 57px;
+    height: 59px;
+    border: 1px solid #eaeef2;
+    box-sizing: border-box;
+    border-radius: 8px 0px 0px 8px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+form .number img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+form .checkboxes > div > div > div{
+    margin-right: 75px;
+    margin-bottom: 27px;
+}
+form div:not(:first-child){
+    flex: 0 1 30%;
+}
+
+@media screen and (max-width: 1350px){
+    form{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .calculate_cost .text{
+        flex-direction: column;
+    }
+    form{
+        flex-direction: column;
+        max-width: 100%;
+        align-items: center;
+    }
+    .calculate_cost .text .gray_text {
+        position: static;
+        text-align: center;
+        justify-content: center;
+        display: block;
+        margin-bottom: 64px;
+        margin-top: 30px;
+
+    }
+    .calculate_cost .text .big_text {
+        text-align: center;
+        display: block;
+        width:100% ;
+    }
+    form .sub_form{
+        margin-left: 57px;
+    }
+}
+@media screen and (max-width: 550px){
+    .calculate_cost .text .gray_text {
+        width: 100%;
+    }
+   
+    form .checkboxes {
+        flex-direction: column;
+    }
+    form{
+        align-items: flex-start;
+        display: block;
+        padding: 20px;
+    }
+    form .button_one{
+        width: 300px;
+        position: static;
+    }
+    .select-wrapper,  
+    form .number {
+        width: 300px;
+    }
+
+    form > div:nth-child(2), 
+    form .sub_form {
+        margin-right: 0 ;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 450px){
+
+}

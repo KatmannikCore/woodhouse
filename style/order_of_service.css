@@ -1,0 +1,118 @@
+.order_container{
+    background: url('../img/order_service_backg.png');
+    height: 875px;
+    margin-top: 90px;
+    background-repeat: no-repeat ;
+}
+.order_container .big_text{
+    text-align: left;
+    margin-bottom: 25px;
+}
+.order_container > div{
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    max-width: 60%;
+    margin: 0 auto;
+}
+.order_container .text{
+    margin-top: 165px;
+    display: flex;
+    flex-direction: column;
+}
+.order_container div:first-child div{
+    display: flex;
+}
+.order_container div:first-child div img{
+    height: 9px;
+    position: relative;
+    top: 5px;
+    margin-right: 23px;
+}
+.order_container .gray_text:first-child{
+    text-align: left !important;
+
+}
+.order_container p:last-child:not(.gray_text){
+    text-align: left;
+}
+
+.order_container .button_one{
+    position: relative;
+    left: 0;
+}
+.order_container button::placeholder{
+    color: #96ABBE;
+
+}
+.order_container .order .gray_text{
+    text-align: center !important;
+}
+.order_container .order{
+    padding-top: 35px;
+}
+.last_input{
+    border-radius:15px !important;
+    height: 100px !important;
+}
+.order a::before{
+    content: url('../img/clip.png');
+    position: relative;
+    right: 7px;
+    top: 5px;
+}
+.order_container a{
+    color: #84C57A;
+}
+
+@media screen and (max-width: 1100px){
+    .order_container > div{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 750px){
+    .order_container{
+        flex-direction: column;
+        background: url('../img/backg_mobail_order.png');
+        background-repeat: no-repeat ;
+        background-size: 100% 100%;
+        height: 100%;
+    }
+    .order_container .big_text,
+    .order_container p.big_text {
+        text-align: center !important;
+    }
+    .order_container p:last-child:not(.gray_text){
+        display: block;
+        width: 200px;
+    }
+    .order_container div:first-child div {
+        justify-content: center;
+    }
+    .order_container .order{
+        margin: 0 auto;
+    }
+    .order_container .order{
+        margin-bottom: 160px;
+        margin-top: 30px;
+    }
+    .order_container div:first-child{
+        text-align: center;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width: 750px){
+    .order_container div:first-child img{
+        float: right;
+    }
+    .order_container .text {
+        margin-top: 0;
+    }
+    .sub_text img{
+        display: none;
+    }
+}

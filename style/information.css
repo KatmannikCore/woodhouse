@@ -1,0 +1,96 @@
+.information{
+    background: #F9F9F9;
+}
+.information > div{
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+
+.statistics{
+    flex-basis: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-self:flex-end;
+    justify-content: space-around;
+}
+.statistics div{
+    flex-basis: 40%;
+    background: #fff;
+    height: 177px;
+    width: 250px;
+    margin-top: 22px;
+    border-radius: 8px;
+}
+.statistics p:first-child{
+    font-size: 40px;
+    color:  #84C57A;
+    font-weight: 500;
+    padding-top: 12px;
+    padding-left: 31px;
+}
+.statistics p:last-child{
+    font-weight: 500;
+    font-size: 14px;
+    color: #96ABBE;
+    padding-left: 31px;
+    padding-bottom: 16px;
+}
+
+.description{
+    flex-basis: 40%;
+    padding-top: 105px;
+    display: flex;
+    flex-direction: column;
+}
+.description p:first-child{
+    font-size: 40px;
+    line-height: 1;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+.description p:first-child span{
+    font-weight: 900;
+}
+.description p:nth-child(2){
+    font-weight: 500;
+    font-size: 18px;
+    color: #96ABBE;
+    padding-bottom: 10px;
+}
+.description p:nth-child(3){
+    padding-bottom: 20px;
+}
+@media screen and (max-width: 1200px){
+    .information > div{
+        max-width: 100%;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1050px){
+    .statistics div{
+        flex-basis: 100%;
+    }
+}
+@media screen and (max-width: 720px){
+    .information > div{
+        flex-direction: column;
+
+    }
+    .information > div .statistics > div{
+        text-align: center;
+        width: 200px;
+        margin-right: 10%;
+        margin-left: 10% ;
+    } 
+    .information .description{
+        margin-right: 30px;
+        margin-left: 30px; 
+        padding-top: 60px;
+    }
+    .statistics{
+        margin-bottom: 50px;
+    }
+}

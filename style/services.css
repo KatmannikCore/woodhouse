@@ -1,0 +1,59 @@
+.services{
+    background: #F9F9F9;
+}
+.services > div{
+    max-width: 60%;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+.container div{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+}
+.container div span{
+    background: linear-gradient(180deg, #ADD8A7 0%, #84C57A 100%);
+    border-radius: 50%;
+    align-self: flex-start;
+    margin-left: 13px;
+}
+.container p{
+    text-align: center;
+    width: 130px;
+}
+.container div{
+    padding-top: 55px;
+}
+.container:last-child div{
+    padding-top: 5px;
+}
+.container div:nth-child(even){
+    margin-top: 40px;
+}
+.container div p:nth-child(2){
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.container div p:nth-child(3){
+    font-weight: 500;
+    font-size: 15px;    
+    color: #96ABBE;
+}  
+@media screen and (max-width: 1100px){
+    .services > div{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 750px){
+    .services{
+        display: none;
+    }
+}

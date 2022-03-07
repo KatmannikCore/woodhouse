@@ -1,0 +1,47 @@
+.order_two{
+    background: url('../img/order_two/backg.png');
+    background-size: 100% 100%;
+    height: 750px;
+    margin-top: 105px;
+}
+.order_two > div{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: -10%;
+}
+.order_two img{
+    z-index: -100;
+}
+.order_two > div{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.order_two .text > div{
+    display: flex;
+    margin-left: 50px;
+}
+.order_two .text img{
+    height: 9px;
+    position: relative;
+    top: 7px;
+    margin-right: 15px;
+}
+.order_two .text > div p{
+    margin-bottom: 35px;
+}
+@media screen and (max-width: 550px){
+    iframe{height: 170px;}
+    .reviews_container > img{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 750px){
+    .order_container{
+        flex-direction: column;
+        background: url('../img/backg_mobail_order2.png');
+        background-repeat: no-repeat ;
+        background-size: 100% 100%;
+        height: 100%;
+    }
+}
