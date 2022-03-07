@@ -46,7 +46,7 @@ iframe{
 .manufacturers > div{
     flex-basis: 12%;
     align-self: center;
-    margin-left: 60px;
+    margin-left: 40px;
 }
 @media screen and (max-width: 1100px){
     iframe{height: 300px;}
@@ -79,6 +79,11 @@ iframe{
     .reviews_container > img{
         width: 45%;
     }
+    .button .button_one{
+        width: 300px;
+        left: 0;
+    }
+
 }
 @media screen and (max-width: 400px){
     .manufacturers > div {

@@ -38,15 +38,8 @@
 .ways-of-homes div{
     width: 30%;
 }
-.homes p:nth-child(1){
-    font-weight: 300;
-    font-size: 40px;
-    line-height: 1;
-    padding-bottom: 25px;
-}
-.homes p:nth-child(1) span{
-    font-weight: 900;   
-}
+
+
 .homes p:nth-child(1) span.green{
     color: #84C57A;
 }
@@ -59,13 +52,13 @@
     text-align: center;
     position: relative;
     top: 12px;
+    padding-bottom: 20px;
 }
 @media screen and (max-width: 1200px){
     .homes > div{
         position: static;
         display: flex;
         flex-direction: column;
-        margin-top: 90px;
     }
     .homes {
         display: flex;
@@ -98,5 +91,23 @@
     }
     .homes {
        height: 1500px;
+    }
+    .gray_cont{
+       margin: 0 auto;
+       padding-bottom: 25px;
+       display: flex;
+       justify-content: center;
+    }
+    .ways-of-homes > div:nth-child(odd) {
+        position: relative;
+        left: 15px;
+    }
+    .ways-of-homes > div:nth-child(even){
+        position: relative;
+        right: 15px;
+    }
+    .ways-of-homes > div p{
+        width: 150px;
+        margin: 0 auto;
     }
 }

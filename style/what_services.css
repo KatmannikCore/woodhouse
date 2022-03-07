@@ -33,13 +33,14 @@
     color: #84C57A;
     text-transform: uppercase;
     font-size: 12px;
-    margin-left: 40px;
+    display: flex;
+    justify-content: center;
     position: relative;
     top: 20px;
 }
 .what_services .container_main div a::after{
     content: url('../img/what_services/Arrow.png');
-    margin-left: 8px;
+    margin-left: 5px;
 }
 .additional-services{
     background: url('../img/what_services/Additional_services/bacround.png');
@@ -81,6 +82,10 @@
     font-weight: 900;
 }
 .additional-services > p{
+    margin-bottom: 20px;
+}
+.what_services .container_sub p{
+    padding-top: 10px;
     margin-bottom: 20px;
 }
 .what_services p.descr{
@@ -138,8 +143,11 @@
     }
 }
 @media screen and (max-width: 550px){
+    .what_services .container_main{
+        display: block;
+    }
     .what_services .container_main div{
-        width: 90%;
+        width: 100%;
         justify-content: center;
     } 
     .what_services .container_main div p{
@@ -152,6 +160,19 @@
     .what_services .container_main div a{
         display: flex;
         justify-content: center;
+    }
+    .service_description{
+        width: 200px;
+        margin: auto;
+        margin-top: 18px;
+    }
+    .show_more {
+        display: block;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .what_services .container_sub{
+        justify-content: space-around;
     }
 }
 
