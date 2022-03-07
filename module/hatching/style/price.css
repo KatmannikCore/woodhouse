@@ -1,0 +1,36 @@
+.price{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.price table tr td:first-child{
+    border-right: 1px solid rgba(150, 171, 190, 0.1);
+}
+.price table{
+    margin: 0 auto;
+    border-spacing: 0;
+    margin-bottom: 88px;
+}
+.price table tr td:first-child p{
+    width: 580px;
+}
+.price table tr td:first-child {
+    padding: 26px 110px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.price table tr td:last-child {
+    padding: 26px 130px;
+    font-weight: 500;
+    font-size: 22px;
+}
+.price table tr:nth-child(odd){
+    background: #fafafa;
+}
+.price img{
+    position: absolute;
+    width: 328px;
+    height: 361px;
+    left: 80%;
+    z-index: -999;
+    top: 3597px;
+}

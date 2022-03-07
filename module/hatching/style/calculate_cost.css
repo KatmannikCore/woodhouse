@@ -184,7 +184,10 @@ form div:not(:first-child){
         position: static;
         text-align: center;
         justify-content: center;
-        margin: 0 auto; 
+        display: block;
+        margin-bottom: 64px;
+        margin-top: 30px;
+
     }
     .calculate_cost .text .big_text {
         text-align: center;
