@@ -2,8 +2,27 @@
     background: url(../img/backg_subheader.png);
 }
 .sub_header div:first-child p:last-child{
-    background: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(19px);    
+    /* background: rgba(255, 255, 255, 0.4); */
+    /* backdrop-filter: blur(19px);     */
     border-radius: 10px;
     padding:15px 30px;
+}
+.sub_header .big_text{
+    text-align: left;
+}
+.sub_header .gray_cont {
+    text-align: left;
+    margin-top: 0 !important;
+}
+@media screen and (max-width: 750px){
+    .sub_header .gray_cont,.sub_header .big_text{
+        text-align: center;
+    }
+    .sub_header div:first-child p:last-child{
+        padding: 0 0px;
+        width: 300px;
+    }
+    .sub_header .big_text{
+        font-size: 30px !important;
+    }
 }

@@ -1,0 +1,16 @@
+.sub_header div:first-child p:last-child{
+    background: rgba(255, 255, 255, 0.4); 
+     backdrop-filter: blur(19px);    
+}
+.sub_header{
+    background: url(../img/painting/backg.png);
+}
+@media screen and (max-width: 750px){
+    .sub_header {
+        flex-direction: column;
+        background: url(../img/painting/backg_mobail.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 100%;
+    }
+}
