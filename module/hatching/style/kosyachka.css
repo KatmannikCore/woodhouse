@@ -1,0 +1,66 @@
+.sub_header div:first-child p:last-child{
+    background: rgba(255, 255, 255, 0.4); 
+     backdrop-filter: blur(19px);    
+}
+.sub_header{
+    background: url(../img/kosyachka/backg_mobail.png);
+}
+@media screen and (max-width: 750px){
+    .sub_header {
+        flex-direction: column;
+        background: url(../img/kosyachka/backg.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 100%;
+    }
+    .what_is_it{
+        flex-direction: column-reverse;
+    }
+    .what_is_it .big_text{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width: 750px){
+    .what_is_it div:last-child{
+        margin-left: 0;
+    }
+    .what_is_it > div:first-child .big_text{
+        display: none !important;
+    }
+    .what_is_it > div:last-child .big_text{
+        display: block !important;
+    }
+    .what_is_it div:last-child{
+        margin-left: 10px !important;
+        width: 100% !important;
+    }
+    .what_is_it .big_text{
+        text-align: center !important;
+    }
+    .what_is_it{
+        margin: 0 30px;
+    }
+    .what_is_it div:first-child{
+        margin: 0 auto;
+    }
+}
+.what_is_it{
+    display: flex;
+    justify-content: center;
+    margin-top: 165px;
+}
+.what_is_it .big_text{
+    text-align: left;
+    margin-top: 0;
+}
+.what_is_it div:last-child{
+    width: 560px;
+    margin-left: 65px;
+}
+
+.what_is_it > div:last-child .big_text{
+   display: none;
+}
+.what_is_it img{
+    margin-top: 30px;      
+}
