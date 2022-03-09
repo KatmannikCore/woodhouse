@@ -42,6 +42,7 @@ iframe{
 .manufacturers{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .manufacturers > div{
     flex-basis: 12%;

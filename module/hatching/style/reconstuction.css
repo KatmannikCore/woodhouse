@@ -1,0 +1,80 @@
+.castle{
+    background: url('../img/reconstuction/castle.png')  no-repeat ;
+    background-size: 100% 100%;
+    height: 1000px;
+}
+.castle .gray_text{
+    width: 550px;
+    margin: 0 auto;
+}
+.work_everyone> div  {
+    display: flex;
+    justify-content: center;
+}
+.work_everyone ul{
+   
+}
+/* .work_everyone li p::before{
+    content: url('../img/reconstuction/Ellipse.png');
+    margin-right: 15px;
+} */
+.work_everyone li .gray_text{
+    text-align: left;
+}
+
+.work_everyone > div > div >p{
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 22px;
+    margin-left: 15px;
+}
+.work_everyone .gray_text{
+    width: 90% !important;
+    margin-left: 15px;
+}
+.work_everyone >  div >  div{
+    background: #F9F9F9;
+    border-radius: 10px;
+    margin-left: 40px;
+    height: 550px;
+}
+.work_everyone >  div >  div img{
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 22px;
+}
+.sub_header {
+    background: url(../img/reconstuction/backg.png);
+}
+.sub_header div:first-child p:last-child {
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(19px);
+    padding: 15px 30px;
+}
+@media screen and (max-width: 750px){
+    .castle{
+        display: none;
+    }
+    .sub_header {
+        flex-direction: column;
+        background: url(../img/reconstuction/backg_mobail.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 100%;
+    }
+    .work_everyone> div {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .work_everyone> div > div {
+        width: 300px;
+        align-self: center;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+}
+
+.work_everyone ul {
+    list-style-image:url('../img/reconstuction/Ellipse.png');
+
+}

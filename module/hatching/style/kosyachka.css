@@ -44,6 +44,9 @@
         margin: 0 auto;
     }
 }
+.sub_header div:first-child p:last-child{
+    padding:15px 30px;
+}
 .what_is_it{
     display: flex;
     justify-content: center;
