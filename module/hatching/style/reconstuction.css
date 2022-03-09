@@ -11,13 +11,7 @@
     display: flex;
     justify-content: center;
 }
-.work_everyone ul{
-   
-}
-/* .work_everyone li p::before{
-    content: url('../img/reconstuction/Ellipse.png');
-    margin-right: 15px;
-} */
+
 .work_everyone li .gray_text{
     text-align: left;
 }
