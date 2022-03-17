@@ -29,7 +29,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="absolute_imgs">
+    <!-- <div class="absolute_imgs">
         <img style="display: none;" src="img/absolute_img/11.png" alt="">
         <img style="display: none;"  src="img/absolute_img/2.png" alt="">
         <img src="img/absolute_img/3.png" alt="">
@@ -38,7 +38,7 @@
         <img src="img/absolute_img/6.png" alt="">
         <img src="img/absolute_img/7.png" alt="">
         <img src="img/absolute_img/8.png" alt="">
-    </div>
+    </div> -->
     <input type="checkbox" class="nav-toggle" id="nav-toggle" hidden>
         <nav class="nav">
             <div class="logo">
@@ -133,18 +133,24 @@
             <p>Закажите бесплатный <br> вызов мастера</p>
             <p>Заполните форму и мы перезвоним <br> Вам в течение 30 мин</p>
             <input class="name" placeholder="Введите Ваше имя" type="text">
-            <input class="phone" placeholder="+7 (_ _ _) _ _ _ - _ _ - _ _" type="text">
-            <button>заказать бесплатный <br> выезд мастера</button>
-            <p>Нажимая на кнопку, вы даёте согласие <br>на обработку персональных данных</p>
+            <input style="margin-bottom: 0px;" class="phone" placeholder="+7 (_ _ _) _ _ _ - _ _ - _ _" type="text">
+            <button class="button_one">заказать бесплатный <br> выезд мастера</button>
+            <p style="padding-top: 20px;" >Нажимая на кнопку, вы даёте согласие <br>на обработку персональных данных</p>
         </div>
     </section>
     <section class="information">
         <div>
             <div class="description">
-                <p> <span>Мы ведем свою <br> деятельность </span>с 2003 года</p>
-                <p>Для кого-то это уже большой пройденный этап, кому-то это покажется небольшой цифрой, но для нас — это только начало нашего большого пути.</p>
-                <p>За это время мы выполнили более 20 000 строительно-отделочных работ деревянных домов. Самое ценное наше приобретение - опыт, который мы накапливали в продолжении этих лет. И несомненно штаб наших бесценных сотрудников, в их число входит: проектное бюро, отдел по работе с клиентами, сметный отдел, профессиональные строители из Республики Беларусь, которые славятся своим трудолюбием и мастерством.</p>
-                <p>Наша дружная команда выполнит поставленные перед нами задачи в кратчайшие сроки и с высочайшим качеством. Выполненные нами строительно-отделочные работы вашего деревянного дома будут хранить тепло вашего очага в течение многих десятилетий.</p>
+                <p class="big_text"  > <span>Мы ведем свою <br> деятельность </span>с 2003 года</p>
+                <p>  Для кого-то это уже большой пройденный этап, кому-то это покажется небольшой цифрой, но для нас — это только начало нашего большого пути.</p>
+                <div class="content-area">
+                    <p class="gradient_hidden">
+                        За это время мы выполнили  более 20 000 строительно-отделочных работ деревянных домов. Самое ценное наше приобретение - опыт, который мы накапливали в продолжении этих лет. И несомненно штаб наших бесценных сотрудников, в их число входит: проектное бюро, отдел по работе с клиентами, сметный отдел, профессиональные строители из Республики Беларусь, которые славятся своим трудолюбием и мастерством.
+                        <br><br>
+                        Наша дружная команда выполнит <span id="text" class="hide-and-show"> поставленные перед нами задачи в кратчайшие сроки и с высочайшим качеством. Выполненные нами строительно-отделочные работы вашего деревянного дома будут хранить тепло вашего очага в течение многих десятилетий.</span> 
+                    </p>
+                    <a id="hideBtn">Читать полность</a>
+                </div>
             </div>
             <div class="statistics">
                 <div>
@@ -287,7 +293,7 @@
                 </div>
                 <div>
                     <img src="img/what_services/Additional_services/3.png" alt="">
-                    <p>Кровельные работы</p>
+                    <p>Кровельные <br> работы</p>
                 </div>
                 <div>
                     <img src="img/what_services/Additional_services/4.png" alt="">
@@ -425,7 +431,10 @@
                 <input placeholder="Кратко опишите Вашу задачу" class="last_input" type="text" name="" id="">
                 <a href="">Прикрепить ТЗ/фото объекта</a>
                 <button class="button_one">узнать предварительную <br> стоимость</button>
-                <p class="gray_text">Нажимая на кнопку, вы даёте согласие на обработку персональных данных</p>
+                <div class="gray_cont">
+                    <p class="gray_text">Нажимая на кнопку, вы даёте согласие на обработку персональных данных</p>
+                </div>
+
             </div>
         </div>
     </section>
@@ -437,43 +446,47 @@
                     <img src="img/completed_projects/1.png" alt="">
                     <p>«Название проекта»</p>
                     <p class="gray_text">Небольшое описание проекта <br> всего в две-три строчки</p>
-                    <a href="">посмотреть подробнее</a>
+                    <a class="link" href="">посмотреть подробнее</a>
                 </div>
                 <div>
                     <img src="img/completed_projects/2.png" alt="">
                     <p>«Название проекта»</p>
                     <p class="gray_text">Небольшое описание проекта <br> всего в две-три строчки</p>
-                    <a href="">посмотреть подробнее</a>
+                    <a  class="link" href="">посмотреть подробнее</a>
                 </div>
                 <div>
                     <img src="img/completed_projects/3.png" alt="">
                     <p>«Название проекта»</p>
                     <p class="gray_text">Небольшое описание проекта <br> всего в две-три строчки</p>
-                    <a href="">посмотреть подробнее</a>
+                    <a  class="link" href="">посмотреть подробнее</a>
                 </div>
                 <div>
                     <img src="img/completed_projects/4.png" alt="">
                     <p>«Название проекта»</p>
-                    <p class="gray_text">Небольшое описание проекта <br> всего в две-три строчки</p>
-                    <a href="">посмотреть подробнее</a>
+                    <p class="gray_text ">Небольшое описание проекта <br> всего в две-три строчки</p>
+                    <a class="link"  href="">посмотреть подробнее</a>
                 </div>
                 <div>
                     <img src="img/completed_projects/5.png" alt="">
                     <p>«Название проекта»</p>
                     <p class="gray_text">Небольшое описание проекта <br> всего в две-три строчки</p>
-                    <a href="">посмотреть подробнее</a>
+                    <a  class="link" href="">посмотреть подробнее</a>
                 </div>
                 <div>
                     <img src="img/completed_projects/6.png" alt="">
                     <p>«Название проекта»</p>
                     <p class="gray_text">Небольшое описание проекта <br> всего в две-три строчки</p>
-                    <a href="">посмотреть подробнее</a>
+                    <a  class="link" href="">посмотреть подробнее</a>
                 </div>
             </div>
         </div>
         <p class="gray_text">Больше реализованныз проектов <br> смотрите в нашем Instagram</p>
-        <button>Подписывайтесь на нас</button>
-        <hr>
+        <div class="wrapper_inst">
+            <div class="btn_inst">
+                <a href="#"><span style="z-index: 100;" ><img src="./img/inst_logo.png" ><b>Подписывайтесь на нас</b></span></a>
+            </div>
+        </div>
+        <hr style="margin-top: 50px;">
     </section>
     <section class="useful_articles">
         <p class="big_text"> <span>Полезные</span> статьи</p>
@@ -506,20 +519,23 @@
                 <p class="big_text" style="text-align: left;"><span>Закажите бесплатный <br> выезд замерщика  </span> <br>на объект</p>
                 <div>
                     <img src="img/order_two/dot.png" alt="">
-                    <p>Специалист проведет <br> все замеры, оценит <br> объем и сложность <br> работы</p>
+                    <p>Специалист проведет все замеры, оценит объем и сложность работы</p>
                 </div>
+                <br>
                 <div>
                     <img src="img/order_two/dot.png" alt=""> 
-                    <p>После оценки объемов <br> и сложности, замерщик <br> просчитает стоимость <br> работ</p>
+                    <p>После оценки объемов и сложности, замерщик просчитает стоимость работ</p>
                 </div>
             </div>
-            <div class="order">
+            <div  style="height: 100%;"  class="order">
                 <p>Закажите бесплатный <br> вызов мастера</p>
                 <p>Заполните форму и мы перезвоним <br> Вам в течение 30 мин</p>
-                <input class="name" placeholder="Введите Ваше имя" type="text">
-                <input class="phone" placeholder="+7 (_ _ _) _ _ _ - _ _ - _ _" type="text">
-                <button>заказать бесплатный <br> выезд мастера</button>
-                <p class="gray_text" >Нажимая на кнопку, вы даёте согласие <br>на обработку персональных данных</p>
+                <input style="height: 60px;" class="name" placeholder="Введите Ваше имя" type="text">
+                <input style="height: 60px;"  class="phone" placeholder="+7 (_ _ _) _ _ _ - _ _ - _ _" type="text">
+                <button  style="height: 60px;"  class="button_one">заказать бесплатный <br> выезд мастера</button>
+                <div style="display: block;" class="gray_cont">
+                    <p class="gray_text" >Нажимая на кнопку, вы даёте согласие <br>на обработку персональных данных</p>
+                </div>
             </div>
         </div>
     </section>
@@ -587,6 +603,6 @@
             </div>
         </div>
     </footer>
-
+<script src="./script.js"></script>
 </body>
 </html>

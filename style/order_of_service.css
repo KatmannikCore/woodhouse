@@ -35,15 +35,15 @@
 }
 .order_container p:last-child:not(.gray_text){
     text-align: left;
+    width: 200px;
 }
 
-.order_container .button_one{
-    position: relative;
-    left: 0;
-}
 .order_container button::placeholder{
     color: #96ABBE;
 
+}
+.order_container .gray_text{
+    text-align: left;
 }
 .order_container .order .gray_text{
     text-align: center !important;
@@ -78,13 +78,15 @@
         background-size: 100% 100%;
         height: 100%;
     }
+    .order_container .gray_text{
+        text-align: center;
+    }
     .order_container .big_text,
     .order_container p.big_text {
         text-align: center !important;
     }
     .order_container p:last-child:not(.gray_text){
-        display: block;
-        width: 200px;
+        width: 300px;
     }
     .order_container div:first-child div {
         justify-content: center;

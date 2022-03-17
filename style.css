@@ -26,6 +26,8 @@ figcaption,
 blockquote,
 dl,
 dd {
+font-family:Montserrat, sans-serif;
+
   margin: 0;
 }
 
@@ -82,4 +84,95 @@ select {
 html, body { overflow-x:hidden; }
 body{
   font-family: Montserrat, sans-serif;
+}
+#hideBtn{
+  text-decoration:underline;
+  color: #F2A250;
+}
+#hideBtn:after{
+  content: '';
+  border: solid #F2A250;
+  position: relative;
+  left: 15px;
+  bottom: 2px;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+#hideBtn{
+  opacity: 0;
+}
+@media screen and (max-width: 750px){
+  .what_can_we_do{
+    display: none;
+  }
+}
+@media screen and (max-width: 475px){
+  .content-area p.gradient_hidden{
+    background: linear-gradient(#000, #fff );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #000;
+    display: table;
+  }
+  
+  #hideBtn{
+    opacity: 1;
+  }
+
+}
+.button_one{
+  background:url('../img/header/order_button.png') ;
+  width: 500px;
+  height: 70px;
+  background-size: 110% 110%;
+  border: 0;
+  font-weight: bold;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  background-position: 25% 75%;
+  margin-bottom: 20px;
+  box-shadow: inset 10px 10px 18px rgba(255, 255, 255, 0.34);
+  border-radius: 49px;
+  position: relative;
+  top: 20px;
+  left: 30px;
+  opacity: 0.99;
+}
+.button_one:hover {
+	margin-top: 1px;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.button_one::before {
+  text-decoration: none;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  border-radius: inherit;
+  background: #D3A16B;
+  margin-top: 5px;
+}
+.button_one::after {
+  content: '';
+  z-index: -10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  background: url(../img/header/order_button.png) #F8AF43;
+  background-position: 50% 55%;
+  background-size: 110% 110%;
+  background-size: cover;
+  box-shadow: inset 10px 10px 18px rgb(255 255 255 / 34%);
+  border: 1px solid rgba(255, 255, 255, 0.34);
 }

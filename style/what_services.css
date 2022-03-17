@@ -67,6 +67,7 @@
     background: linear-gradient(180deg, #ADD8A7 0%, #84C57A 100%);
     box-shadow: inset 7px 5px 18px rgba(255, 255, 255, 0.64);
     border-radius: 50%;
+    margin: 0 auto;
 }
 .additional-services .container_sub {
     display: flex;
@@ -79,7 +80,7 @@
     text-align: center;
 }
 .what_services p:first-child span{
-    font-weight: 900;
+    font-weight: 500;
 }
 .additional-services > p{
     margin-bottom: 20px;
@@ -97,7 +98,7 @@
 .show_more{
     color: #F2A250;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 500;
     text-transform: uppercase;
     background: white;
     border:1px solid #F2A250;

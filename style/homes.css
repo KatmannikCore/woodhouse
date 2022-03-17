@@ -5,25 +5,10 @@
     max-width: 95%;
     margin: auto;
     border-radius: 10px;
+    width: 100%;
+    background-size: 100% 100;
 }
-.button_one{
-    background:url('../img/header/order_button.png') ;
-    width: 500px;
-    height: 70px;
-    background-size: 110% 110%;
-    border: 0;
-    font-weight: bold;
-    font-size: 12px;
-    color: #fff;
-    text-transform: uppercase;
-    background-position: 25% 75%;
-    margin-bottom: 20px;
-    box-shadow: inset 10px 10px 18px rgba(255, 255, 255, 0.34);
-    border-radius: 49px;
-    position: relative;
-    top: 20px;
-    left: 30px;
-}
+
 .homes > div{
     position: relative;
     left: 340px;
@@ -39,7 +24,9 @@
     width: 30%;
 }
 
-
+.homes p:nth-child(1),.homes p:nth-child(2){
+    text-align: left;
+}
 .homes p:nth-child(1) span.green{
     color: #84C57A;
 }
@@ -70,6 +57,9 @@
         background: url('../img/homes/backg_mobail.png') no-repeat;
         background-size: 100% 45% ;
         background-position: 50% 100%;
+    }
+    .homes p:nth-child(1), .homes p:nth-child(2) {
+        text-align: center;
     }
 }
 @media screen and (max-width: 550px){
