@@ -49,6 +49,9 @@ iframe{
     align-self: center;
     margin-left: 40px;
 }
+
+
+
 @media screen and (max-width: 1100px){
     iframe{height: 300px;}
     .reviews p:first-child {
@@ -73,7 +76,9 @@ iframe{
 @media screen and (max-width: 700px){
     .manufacturers > div {
         flex-basis: 35%;
+
     }
+    
 }
 @media screen and (max-width: 550px){
     iframe{height: 170px;}
