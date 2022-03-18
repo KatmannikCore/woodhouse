@@ -76,9 +76,11 @@ iframe{
 @media screen and (max-width: 700px){
     .manufacturers > div {
         flex-basis: 35%;
-
+        margin-left: 0;
     }
-    
+    .manufacturers {
+        justify-content: space-around;
+    }
 }
 @media screen and (max-width: 550px){
     iframe{height: 170px;}

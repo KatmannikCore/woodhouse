@@ -213,7 +213,6 @@ form div:not(:first-child){
     }
     form .button_one{
         width: 300px;
-        position: static;
     }
     .select-wrapper,  
     form .number {
