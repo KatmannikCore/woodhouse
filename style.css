@@ -169,7 +169,7 @@ body{
   right: 0;
   bottom: 0;
   border-radius: inherit;
-  background: url(../img/header/order_button.png) #F8AF43;
+  background: url("../img/header/order_button.png") #F8AF43;
   background-position: 50% 55%;
   background-size: 110% 110%;
   background-size: cover;
