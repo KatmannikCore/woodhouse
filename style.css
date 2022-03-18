@@ -85,11 +85,11 @@ html, body { overflow-x:hidden; }
 body{
   font-family: Montserrat, sans-serif;
 }
-#hideBtn{
+#hideBtn, #hideBtn2{
   text-decoration:underline;
   color: #F2A250;
 }
-#hideBtn:after{
+#hideBtn:after, #hideBtn2:after{
   content: '';
   border: solid #F2A250;
   position: relative;
@@ -101,7 +101,7 @@ body{
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
-#hideBtn{
+#hideBtn, #hideBtn2{
   opacity: 0;
 }
 @media screen and (max-width: 750px){
@@ -110,7 +110,7 @@ body{
   }
 }
 @media screen and (max-width: 475px){
-  .content-area p.gradient_hidden{
+  .content-area p.gradient_hidden, .content-area p.gradient_hidden2{
     background: linear-gradient(#000, #fff );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -118,7 +118,7 @@ body{
     display: table;
   }
   
-  #hideBtn{
+  #hideBtn, #hideBtn2{
     opacity: 1;
   }
 
