@@ -39,12 +39,14 @@
 .open-menu{
     display: none;
     position: absolute;
-    left: 88%;
+    left: 86%;
     right: 0%;
-    top: 30px;
+    top: 15px;
     bottom: 0;
     color: green;
-    font-size: 28px;
+    font-size: 38px;
+    width: 26px;
+    height: 20px;
 }
 .nav-toggle {
     /* абсолютно позиционируем */
