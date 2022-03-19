@@ -176,3 +176,15 @@ body{
   box-shadow: inset 10px 10px 18px rgb(255 255 255 / 34%);
   border: 1px solid rgba(255, 255, 255, 0.34);
 }
+hr{
+  margin-top: 50px;
+}
+.tee {
+  background: linear-gradient(red, blue); /* Градиент для текста */
+ }
+ div > h2 {
+  font-size: 3rem; /* Размер текста */
+  margin: 0; /* Убираем отступы */
+  background: white; /* Белый цвет фона */
+  mix-blend-mode: screen; /* Режим наложения */
+ }

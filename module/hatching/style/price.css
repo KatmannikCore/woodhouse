@@ -13,9 +13,6 @@
 .price table tr td:first-child p{
     width: 580px;
 }
-.price table tr td:last-child p{
-    width: 120px;
-}
 .price table tr td:first-child {
     padding: 26px 110px;
     font-weight: 500;
@@ -24,7 +21,7 @@
 .price table tr td:last-child {
     padding: 26px 130px;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 14px;
 }
 .price table tr:nth-child(odd){
     background: #fafafa;
