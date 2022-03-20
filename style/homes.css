@@ -63,6 +63,14 @@
     }
 }
 @media screen and (max-width: 550px){
+    .homes .button_one{
+        width: 300px;
+        left: 0;
+    }
+    .homes .button_cont{
+        display: flex;
+        justify-content: center;
+    }
     .absolute_imgs img:nth-child(4){
         display: none;
     }
