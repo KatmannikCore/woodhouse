@@ -118,7 +118,7 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #000;
-    display: table;
+    display: block;
   }
   
   #hideBtn, #hideBtn2{
