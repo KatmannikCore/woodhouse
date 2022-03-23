@@ -36,8 +36,17 @@
     color: #94ACBD;
     padding-bottom: 35px;
 }
+.homes .gray_cont .gray_text{
+    font-size: 16px !important;
+}
+.homes .gray_cont{
+    margin-bottom: 34px;
+}
+.homes .button_cont{
+    justify-content: flex-start;
+}
 .ways-of-homes p{
-    text-align: center;
+    text-align: center !important;
     position: relative;
     top: 12px;
     padding-bottom: 20px;

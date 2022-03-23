@@ -27,7 +27,7 @@ blockquote,
 dl,
 dd {
 font-family:Montserrat, sans-serif;
-
+  color: #333;
   margin: 0;
 }
 
@@ -128,8 +128,8 @@ body{
 }
 .button_one{
   background:url('../img/header/order_button.png') ;
-  width: 500px;
-  height: 70px;
+  width: 450px;
+  height: 85px;
   background-size: 110% 110%;
   border: 0;
   font-weight: bold;
@@ -143,6 +143,7 @@ body{
   position: relative;
   top: 20px;
   left: 30px;
+  letter-spacing: 1px;
   opacity: 0.99;
 }
 .button_one:hover {
@@ -191,3 +192,40 @@ hr{
   background: white; /* Белый цвет фона */
   mix-blend-mode: screen; /* Режим наложения */
  }
+ .big_text span{
+  font-weight: 500;
+}
+.big_text{
+  font-size: 40px;
+  line-height: 1.1;
+  color: #333;
+  font-weight: 300;
+  letter-spacing: 3px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.gray_text{
+  font-weight: 500;
+  font-size: 16px;
+  color: #94ACBD;
+  text-align: center;
+}
+.none_cont{
+    display: none !important;
+}
+.order_container_button > div{
+  background: url('./img/backg_order_container_button.png') !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+  margin: 0 77px;
+  height: 700px !important;
+}
+/* .order_container_button  .order{
+  margin-top: 50px !important;
+}
+
+.order_container_button .text{
+  margin-top: 10px !important;
+} */

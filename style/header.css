@@ -57,11 +57,16 @@ header .contacts p:last-child{
     font-weight: 500;
     font-size: 14px;
 }
-header .Request-call{
-    color: #FFF;
-    font-size: 11px;
-    text-transform: uppercase;
+header .Request-call {
+
     margin-top: 19px;
+}
+header .Request-call p{
+    color: #FFF;
+    letter-spacing: 1px;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 header .line{
     border: 1px solid #DDE3ED;
@@ -69,6 +74,7 @@ header .line{
 header .menu a , .nav .menu a{
     text-decoration: none;
     font-weight: 600;
+    letter-spacing: 1px;
     font-size: 12px;
     color: #333333;
 }

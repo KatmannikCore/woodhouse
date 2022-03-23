@@ -3,6 +3,9 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.useful_articles{
+    margin-bottom: 100px;
+}
 .useful_container > div{
     background: #F9FAFB;
     width: 360px;
@@ -45,10 +48,7 @@
     content: url('../img/completed_projects/Arrow.png');
     padding-left: 10px;
 }
-.big_text{
-    margin-top: 80px;
-    margin-bottom: 30px;
-}
+
 .useful_articles button{
     display: block;
     margin: 0 auto;

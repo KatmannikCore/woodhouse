@@ -9,18 +9,19 @@
 
 .order{
     background: #fff;
-    width: 350px;
+    width: 400px;
     height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-top: 78px;
+    margin-top: 60px;
+    border-radius: 10px;
 }
-.order input,input_gray{
+.order input,.input_gray{
     align-self: center;
     border-radius: 50px;
-    width: 85%;
+    width: 80%;
     height: 15%;
     background: #F4F8FB;
     border: 0px;
@@ -29,8 +30,9 @@
 .order p:nth-child(1){
     margin-top: 40px;
     font-weight: 500;
-    font-size: 24px;   
+    font-size: 22px;   
     margin-bottom: 11px; 
+    line-height: 1.28;
 }
  .order p:nth-child(2){
     font-weight: 500;
@@ -43,20 +45,19 @@
     color: #96ABBE;
     margin-bottom: 37px;
 }
-.order input,.input_gray::placeholder {
+.order input::placeholder  ,.input_gray::placeholder {
     text-align: center;
     color: #96ABBE;
     font-weight: 500;
     font-size: 16px;
 }
 .order button{
-    width: 85%;
+    width: 80%;
     margin-bottom: 20px;
+    left: 45px;
 }
 .sub_header div:first-child p:first-child{
     font-size: 55px;
-    line-height: 1;
-    font-weight: 100;
     margin-bottom: 24px;
     text-align: left;
 }
@@ -71,14 +72,13 @@
   font-weight: 500;
 }
 .sub_header div:first-child p:last-child {
-    font-weight: 100;
     font-size: 18px;
     color: #94ACBD;
     line-height: 118%
 }
 .sub_header div:first-child div{
     display: flex;
-    width: 550px;
+    width: 600px;
 }
 .sub_header div:first-child div img{
     height: 9px;

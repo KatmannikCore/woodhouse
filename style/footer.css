@@ -84,6 +84,8 @@ footer .footer > div:nth-child(3) .number{
 footer .footer > div:nth-child(4) a{
     text-transform: uppercase;
     margin-top: 15px;
+    font-size: 12px;
+    font-weight: bold;
     color: #84C57A;
 }
 footer .footer > div:nth-child(4) p{
