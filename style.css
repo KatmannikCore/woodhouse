@@ -200,7 +200,6 @@ hr{
   line-height: 1.1;
   color: #333;
   font-weight: 300;
-  letter-spacing: 3px;
   margin-top: 60px;
   margin-bottom: 30px;
   text-align: center;
@@ -219,8 +218,20 @@ hr{
   background: url('./img/backg_order_container_button.png') !important;
   background-repeat: no-repeat !important;
   background-size: 100% 100% !important;
-  margin: 0 77px;
   height: 700px !important;
+
+}
+@media screen and (max-width: 750px){
+  .order_container_button{
+    height:1100px !important;
+
+  }
+  .order_container_button > div{
+    background: url('./img/backg_order_container_button2.png') !important;
+    position: relative;
+    bottom: -150px;
+  }
+
 }
 /* .order_container_button  .order{
   margin-top: 50px !important;

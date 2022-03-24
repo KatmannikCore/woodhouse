@@ -18,7 +18,7 @@
     margin: 0 auto;
 }
 .order_container .text{
-    margin-top: 145px;
+    margin-top: 65px;
     display: flex;
     flex-direction: column;
 }
@@ -74,6 +74,7 @@
     color: #84C57A;
     font-weight: bold;
     letter-spacing: 1px;
+    font-size: 12px;
 }
 .order_container_button .order{
     margin-top: 100px;
@@ -84,6 +85,15 @@
     }
 }
 @media screen and (max-width: 750px){
+    .order_container > div{
+        background: url('../img/backg_mobail_order.png');
+        background-repeat: no-repeat ;
+        background-size: 100% 100%;
+        height: 100%;
+    }
+    .order_container .order{
+        width: 90%;
+    }
     .order_container{
         flex-direction: column;
         background: url('../img/backg_mobail_order.png');
@@ -97,7 +107,13 @@
     .order_container .big_text,
     .order_container p.big_text {
         text-align: center !important;
+        width: 85%;
+        display: block;
+        margin: auto;
+        margin-bottom: 25px;
+        margin-top:60px;
     }
+
     .order_container p:last-child:not(.gray_text){
         width: 300px;
     }

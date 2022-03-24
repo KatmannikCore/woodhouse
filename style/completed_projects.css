@@ -61,6 +61,7 @@
     text-transform: uppercase;
     font-weight: 700;
     margin-top: 15px;
+    font-size: 12px;
 }
 .completed_projects .link::after{
     content: url('../img/completed_projects/Arrow.png');

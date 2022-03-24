@@ -18,6 +18,7 @@
 }
 .useful_container > div p, .useful_container > div a{
     padding-left: 30px;
+
 }
 .useful_container img{
     height: 230px;
@@ -43,6 +44,7 @@
     text-transform: uppercase;
     font-weight: 700;
     margin-top: 15px;
+    font-size: 12px;
 }
 .useful_container a::after{
     content: url('../img/completed_projects/Arrow.png');

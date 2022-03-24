@@ -89,7 +89,7 @@
     }
     .information > div .statistics > div{
         text-align: center;
-        width: 200px;
+        height: 150px;
         margin-right: 10%;
         margin-left: 10% ;
     } 
@@ -100,6 +100,12 @@
     }
     .statistics{
         margin-bottom: 50px;
+    }
+    .statistics p:first-child{
+        padding-left: 0;
+    }
+    .statistics p:last-child {
+        padding-left: 0;
     }
 }
 .hide-and-show {

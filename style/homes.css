@@ -9,7 +9,10 @@
     background-size: 100% 100;
     position: relative;
 }
-
+.homes .button_one{
+    width: 470px;
+    padding: 10px;
+}
 .homes > div{
     position: relative;
     left: 340px;
