@@ -31,8 +31,8 @@ menu.innerHTML = `<p class="open-menu" style="z-index: 4444;">&#9776</p>
                     <div class="gray_cont">
                         <p class="gray_text" style="color: #fff; opacity: .6;" >info@woodhouse495.ru</p>
                     </div>
-                    <button style="height: 60px;" class="button_one">  Заказать звонок</button>
-                    <hr style="margin-top: 20чpx;">
+                    <button style="height: 60px;" class="button_one">  <a href="#popup" class="header__phone popup-link">Заказать звoнок</a></button>
+                    <hr style="margin-top: 20px;">
                     <div class="social_media">
                         <img src="img/header/social_media.png" alt="">
                     </div>`

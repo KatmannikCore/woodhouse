@@ -1,14 +1,23 @@
 
-     document.querySelectorAll('.open-menu').forEach(item => {
+document.querySelectorAll('.open-menu').forEach(item => {
       item.addEventListener('click',() => {
           document.querySelector('.nav').classList.toggle('nav_active')
           console.log(document.querySelector('.nav'))
           document.querySelectorAll('.nav > ul > li').forEach(item => {item.classList.toggle('li_active')})
       })
+})
+function toggleMenu(){
+  document.querySelectorAll('.open-menu').forEach(item => {
+    item.addEventListener('click',() => {
+        document.querySelector('.nav').classList.toggle('nav_active')
+        console.log(document.querySelector('.nav'))
+        document.querySelectorAll('.nav > ul > li').forEach(item => {item.classList.toggle('li_active')})
+    })
   })
-  document.querySelectorAll('.show_more')[0].addEventListener('click', ()=>{
-    document.querySelector('.container_add').classList.toggle('none_cont');
-  })
+}
+document.querySelectorAll('.show_more')[0].addEventListener('click', ()=>{
+  document.querySelector('.container_add').classList.toggle('none_cont');
+})
 const btn = document.getElementById('hideBtn');
 const hidden_text = document.querySelector('.gradient_hidden');
 if(window.innerWidth > 750){

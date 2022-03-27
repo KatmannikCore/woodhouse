@@ -13,7 +13,7 @@ header.innerHTML = `<div class="main_header">
                             <p>+7 (916) 916-80-78</p>
                             <p>info@woodhouse495.ru</p>
                         </div>
-                        <button class="Request-call"> <p>Заказать звoнок</p> </button>
+                        <button class="Request-call"> <a href="#popup" class="header__phone popup-link">Заказать звoнок</a> </button>
                     </div>
                     <div class="line"></div>
                     <div class="menu">

@@ -448,3 +448,7 @@ body {
     padding-bottom: 30px;
     padding-top: 11px;
 }
+.button_one a{
+    color: white;
+    text-decoration: none;
+}
