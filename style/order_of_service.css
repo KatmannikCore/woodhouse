@@ -1,6 +1,5 @@
-.order_container{
-   
-
+.order{
+    margin: 20px;
 }
 .order_container .big_text{
     text-align: left;
