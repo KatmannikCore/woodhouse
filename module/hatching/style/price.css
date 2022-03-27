@@ -79,11 +79,4 @@
         padding-left: 0;
     }
 }
-@media screen and (max-width: 650px){
-    .how_we_work .container > div span{
-        left: 0;
-    }
-    .grey_text{
-        width: 100% !important;
-    }
-}
+

@@ -4,6 +4,11 @@ footer .contacts_container{
     max-width: 80%;
     margin: 0 auto;
 }
+footer .big_text{
+    margin-top: 0;
+    padding-top: 40px;
+    margin-bottom: 100px;
+}
 .our_contacts{
     background: url('../img/footer/contacts/comtacts_backg.png');
     background-repeat: no-repeat;
@@ -108,12 +113,15 @@ footer .footer > div:nth-child(4) p{
     }
 }
 @media screen and (max-width: 750px){
+    footer .big_text{
+        margin-bottom: 50px;
+    }
     .our_contacts{
         background: url('../img/footer/backg_mobail.png');
         background-repeat: no-repeat;
-        background-size: 100% 25%;
         background-position: 50% 100%;
-        height: 1300px;
+        background-size: 100% 100%;
+        height: 1200px;
     }
     footer .footer > div:nth-child(3){
         display: none;
@@ -124,6 +132,7 @@ footer .footer > div:nth-child(4) p{
     footer .contacts_container > div{
         align-self: center;
         margin-top: 20px;
+        background: none;
         padding-bottom: 25px;
     }
     .our_contacts p:first-child {
