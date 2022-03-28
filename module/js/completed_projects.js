@@ -46,12 +46,13 @@ completed_projects.innerHTML = `
 document.querySelector('.completed_projects').append(completed_projects)
 let p = document.createElement('p');
 p.classList.add('gray_text');
-p.innerText = 'Больше реализованныx проектов <br> смотрите в нашем Instagram'
+p.innerHTML = 'Больше реализованныx проектов <br> смотрите в нашем Instagram'
+document.querySelector('.completed_projects').append(p)
 let wrapper_inst = document.createElement('div');
 wrapper_inst.classList.add('wrapper_inst');
 wrapper_inst.innerHTML =`
                     <div class="btn_inst">
-                        <a href="#"><span style="z-index: 100;" ><img src="./img/inst_logo.png" ><b>Подписывайтесь на нас</b></span></a>
+                        <a href="#"><span style="z-index: 100;" ><img src="../../img/inst_logo.png" ><b>Подписывайтесь на нас</b></span></a>
                     </div>
 `
 document.querySelector('.completed_projects').append(wrapper_inst)

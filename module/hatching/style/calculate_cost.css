@@ -12,6 +12,14 @@
 }
 .calculate_cost{
     background: url('../img/form/backg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 900px;
+}
+.calculate_cost button{
+    left: 0;
+    right: 0;
+    top: 0;
 }
 .calculate_cost .text{
     flex-basis: 100%;
@@ -198,7 +206,10 @@ form div:not(:first-child){
         margin-left: 57px;
     }
 }
-@media screen and (max-width: 550px){
+@media screen and (max-width: 750px){
+    .calculate_cost{
+        height: 100%;
+    }
     .calculate_cost .text .gray_text {
         width: 100%;
     }

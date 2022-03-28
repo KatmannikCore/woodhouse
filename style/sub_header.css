@@ -44,6 +44,7 @@
     font-size: 13px;
     color: #96ABBE;
     margin-bottom: 37px;
+    padding-top: 20px;
 }
 .order input::placeholder  ,.input_gray::placeholder {
     text-align: center;
@@ -54,7 +55,7 @@
 .order button{
     width: 80%;
     margin-bottom: 20px;
-    left: 45px;
+    left: 35px;
 }
 .sub_header div:first-child p:first-child{
     font-size: 55px;
@@ -114,6 +115,7 @@
     .sub_header .order{
         margin-bottom: 160px;
         margin-top: 30px;
+        max-width: 90%;
     }
     .sub_header div:first-child{
         text-align: center;

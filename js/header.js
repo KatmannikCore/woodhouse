@@ -4,16 +4,16 @@ header.innerHTML = `<div class="main_header">
                         <p class="logo"><span>WOOD</span>HOUSE495</p>
                         <p class="company">Строительно-отделочные <br> работы деревянных домов</p>
                         <div class="social_media">
-                            <a href=""><img src="img/header/inst.png" alt=""></a>
-                            <a href=""><img src="img/header/yt.png" alt=""></a>
-                            <a href=""><img src="img/header/vk.png" alt=""></a>
-                            <a href=""><img src="img/header/wp.png" alt=""></a>
+                            <a href=""><img src="./img/header/inst.png" alt=""></a>
+                            <a href=""><img src="./img/header/yt.png" alt=""></a>
+                            <a href=""><img src="./img/header/vk.png" alt=""></a>
+                            <a href=""><img src="./img/header/wp.png" alt=""></a>
                         </div>
                         <div class="contacts">
                             <p>+7 (916) 916-80-78</p>
                             <p>info@woodhouse495.ru</p>
                         </div>
-                        <button class="Request-call"> <a href="#popup" class="header__phone popup-link">Заказать звoнок</a> </button>
+                        <button class="Request-call" style="z-index:999"> <a href="#popup" class="header__phone popup-link">Заказать звoнок</a> </button>
                     </div>
                     <div class="line"></div>
                     <div class="menu">
