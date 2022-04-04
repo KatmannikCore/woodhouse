@@ -71,6 +71,7 @@ iframe{
     .manufacturers > div {
         flex-basis: 35%;
         margin-left: 0;
+        margin-top: 20px;
     }
     .manufacturers {
         justify-content: space-around;

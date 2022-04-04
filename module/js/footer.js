@@ -59,7 +59,7 @@ footer.innerHTML = `<div class="our_contacts">
                         </div>
                         <div>
                             <a href="">договор оферты</a>
-                            <a href="">политка конфиденциальности</a>
+                            <a href="">политика конфиденциальности </a>
                             <p class="gray_text">© 2008 — 2022 «WOODHOUSE495»</p> 
                         </div>
                     </div>`

@@ -15,6 +15,12 @@
     .sub_header .gray_cont,.sub_header .big_text{
         text-align: center;
     }
+    .calculate_cost .text{
+        padding-top: 0 !important;
+    }
+    .calculate_cost .text .gray_text {
+        margin-bottom: 0 !important;
+    }
     .sub_header div:first-child p:last-child{
         padding: 0 0px;
         width: 300px;

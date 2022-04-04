@@ -35,7 +35,7 @@ header.innerHTML = `<div class="main_header">
                             <li><a href="#reviews">ОТЗЫВЫ</a></li>
                             <li><a href="#how_we_work">ЭТАПЫ РАБОТЫ</a></li>
                             <li><a href="#completed_projects">ВЫПОЛНЕНЫЕ ПРОЕКТЫ</a></li>
-                            <li><a href="#our_contacts">КОНТРАКТЫ</a></li>
+                            <li><a href="#our_contacts">КОНТАКТЫ</a></li>
                         </ul>
                     </div>`
 document.body.prepend(header)

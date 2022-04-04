@@ -32,7 +32,7 @@ btn.addEventListener('click', function() {
   if (btn.innerHTML === 'Читать полностью') {
     btn.innerHTML = 'Скрыть текст';
   } else {
-    btn.innerHTML = 'Читать полность';
+    btn.innerHTML = 'Читать полностью';
   }
 })
 
