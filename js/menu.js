@@ -27,7 +27,7 @@ menu.innerHTML = `<p class="open-menu" style="z-index: 4444;">&#9776</p>
                         <li><a href="#our_contacts" style="color: #fff;" href="">КОНТАКРЫ</a></li>
                     </ul>
                     <hr style="margin-top: 20px;">
-                    <p class="phone" >+7 (916) 916-80-78</p>
+                    <p href="tel:+7 (916) 916-80-78" rel="nofollow" class="phone" >+7 (916) 916-80-78</p>
                     <div class="gray_cont">
                         <p class="gray_text" style="color: #fff; opacity: .6;" >info@woodhouse495.ru</p>
                     </div>

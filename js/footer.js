@@ -53,7 +53,7 @@ footer.innerHTML = `<div class="our_contacts">
                                 <a href=""><img src="img/header/vk.png" alt=""></a>
                                 <a href=""><img src="img/header/wp.png" alt=""></a>
                             </div>
-                            <p class="number">+7 (916) 916-80-78</p>
+                            <a href="tel:+7 (916) 916-80-78" rel="nofollow" class="number">+7 (916) 916-80-78</a>
                             <p class="gray_text">info@woodhouse495.ru</p>
                             <button class="Request-call" >Заказать званок</button>
                         </div>

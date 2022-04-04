@@ -10,10 +10,10 @@ header.innerHTML = `<div class="main_header">
                             <a href=""><img src="./img/header/wp.png" alt=""></a>
                         </div>
                         <div class="contacts">
-                            <p>+7 (916) 916-80-78</p>
+                            <a href="tel:+7 (916) 916-80-78" rel="nofollow" >+7 (916) 916-80-78</a>
                             <p>info@woodhouse495.ru</p>
                         </div>
-                        <button class="Request-call" style="z-index:999"> <a href="#popup" class="header__phone popup-link">Заказать звoнок</a> </button>
+                        <button class="Request-call" style="z-index:999"> <a href="#popup"  class="header__phone popup-link">Заказать звoнок</a> </button>
                     </div>
                     <div class="line"></div>
                     <div class="menu">

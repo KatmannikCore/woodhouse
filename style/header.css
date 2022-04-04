@@ -45,11 +45,15 @@ header .logo span{
     color: #96ABBE;
     margin-top: 24px;
 }
-header .contacts p:first-child{
+header .contacts a{
+    display: block;
+    color: black;
+    text-decoration: none;
     margin-top: 19px;
     font-weight: 500;
     font-size: 21px;
     letter-spacing: 0.025em;
+    
     text-transform: uppercase;
 }
 header .contacts p:last-child{
