@@ -49,7 +49,7 @@
     flex-direction: column;
 }
 .description > p:first-child{
-    font-size: 40px;
+    font-size: 30px;
     line-height: 1;
     padding-bottom: 10px;
     text-align: left;
@@ -76,6 +76,7 @@
     }
 }
 @media screen and (max-width: 720px){
+
     .information .big_text{
         margin-top: 0;
     }

@@ -22,7 +22,9 @@
     }
 }
 @media screen and (max-width: 750px){
-
+    .what_is_it{
+        margin-top: 40px !important;
+    }
     .what_is_it div:last-child{
         margin-left: 0;
     }
@@ -30,7 +32,7 @@
         display: none !important;
     }
     .what_is_it > div:last-child .big_text{
-        display: block !important;
+        display: block !important; 
     }
     .what_is_it div:last-child{
         margin-left: 10px !important;

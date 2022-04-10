@@ -15,6 +15,11 @@
     .sub_header .gray_cont,.sub_header .big_text{
         text-align: center;
     }
+    .sub_header {
+        background: url(../img/backg_mobail.png);
+        background-repeat: no-repeat;
+        height: 100%;
+    }
     .calculate_cost .text{
         padding-top: 0 !important;
     }

@@ -47,6 +47,9 @@
     }
 }
 @media screen and (max-width: 650px){
+    .color{
+        margin-top: 40px !important;
+    }
     .color .images img:first-child{
         margin-left: 0px;
     }

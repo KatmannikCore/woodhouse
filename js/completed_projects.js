@@ -56,6 +56,4 @@ wrapper_inst.innerHTML =`
                     </div>
 `
 document.querySelector('.completed_projects').append(wrapper_inst)
-let hr = document.createElement('hr');
-document.querySelector('.completed_projects').append(hr)
 

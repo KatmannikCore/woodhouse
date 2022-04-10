@@ -58,4 +58,4 @@ services.innerHTML =`
     </div>
 </div> 
 `
-document.querySelector('.services').append(services)
+document.querySelector('.services').append(services);

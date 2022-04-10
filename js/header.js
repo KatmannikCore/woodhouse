@@ -20,9 +20,9 @@ header.innerHTML = `<div class="main_header">
                         <ul>
                             <li><a class="first" href="">ГЛАВНАЯ</a></li>
                             <li><a href="#what_can_we_do" href="">ЧТО МЫ УМЕЕМ</a></li>
-                            <li><a href="" class="submenu-link">УCЛУГИ</a>
+                            <li><a  class="submenu-link">УCЛУГИ</a>
                                 <ul class="submenu">
-                                    <li><a  href="./module/hatching/hatching.html">Шлифовка деревянного дома</a></li>
+                                    <li><a href="./module/hatching/hatching.html">Шлифовка деревянного дома</a></li>
                                     <li><a href="./module/hatching/painting.html">Покраска деревянного дома</a></li>
                                     <li><a href="./module/hatching/kosyachka.html">Окосячка деревянного дома</a></li>
                                     <li><a href="./module/hatching/roof.html">Кровельные работы</a></li>

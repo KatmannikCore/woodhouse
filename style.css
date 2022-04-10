@@ -233,7 +233,9 @@ hr{
     position: relative;
     bottom: -150px;
   }
-
+  .big_text {
+    font-size: 30px !important;
+  }
 }
 input{
   text-align: center;
