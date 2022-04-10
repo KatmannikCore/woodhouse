@@ -1,20 +1,19 @@
 
 document.querySelectorAll('.open-menu').forEach(item => {
       item.addEventListener('click',() => {
+          console.log(1);
           document.querySelector('.nav').classList.toggle('nav_active')
           console.log(document.querySelector('.nav'))
           document.querySelectorAll('.nav > ul > li').forEach(item => {item.classList.toggle('li_active')})
       })
 })
-function toggleMenu(){
-  document.querySelectorAll('.open-menu').forEach(item => {
-    item.addEventListener('click',() => {
-        document.querySelector('.nav').classList.toggle('nav_active')
-        console.log(document.querySelector('.nav'))
-        document.querySelectorAll('.nav > ul > li').forEach(item => {item.classList.toggle('li_active')})
-    })
-  })
-}
+document.querySelector('.submenu-link').addEventListener('click', () => {document.querySelector(".submenu").classList.toggle('show_submenu')})
+document.querySelectorAll(".bar li a:not(.submenu-link)").forEach(item => item.addEventListener('click', () => {
+  console.log(1);
+  document.querySelector('.nav').classList.toggle('nav_active')
+  console.log(document.querySelector('.nav'))
+  document.querySelectorAll('.nav > ul > li').forEach(item => {item.classList.toggle('li_active')})
+}))
 document.querySelectorAll('.show_more')[0].addEventListener('click', ()=>{
   document.querySelector('.container_add').classList.toggle('none_cont');
 })
@@ -42,12 +41,16 @@ if(window.innerWidth > 750){
   hidden_text2.classList.toggle('gradient_hidden2');
   document.getElementById('text2').classList.toggle('hide-and-show');
 }
-btn2.addEventListener('click', function() {
-  hidden_text2.classList.toggle('gradient_hidden2');
-  document.getElementById('text2').classList.toggle('hide-and-show');
-  if (btn2.innerHTML === 'Читать полностью') {
-    btn2.innerHTML = 'Скрыть текст';
-  } else {
-    btn2.innerHTML = 'Читать полностью';
-  }
-})
+try{
+  btn2.addEventListener('click', function() {
+    hidden_text2.classList.toggle('gradient_hidden2');
+    document.getElementById('text2').classList.toggle('hide-and-show');
+    if (btn2.innerHTML === 'Читать полностью') {
+      btn2.innerHTML = 'Скрыть текст';
+    } else {
+      btn2.innerHTML = 'Читать полностью';
+    }
+  })  
+}catch(e){
+  console.log(e);
+}

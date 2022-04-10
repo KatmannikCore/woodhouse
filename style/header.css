@@ -136,7 +136,11 @@ header .submenu{
     opacity: 0.5;
     border-bottom: 1px solid rgba(255,255,255,.1);
 }
-li:hover .submenu {
+/* li:hover .submenu {
+    opacity: 1;
+    transform: scaleY(1);
+} */
+.show_submenu{
     opacity: 1;
     transform: scaleY(1);
 }
