@@ -2,8 +2,8 @@
 document.querySelectorAll('.open-menu').forEach(item => {
       item.addEventListener('click',() => {
           console.log(1);
+          document.body.classList.toggle('body_overflow')
           document.querySelector('.nav').classList.toggle('nav_active')
-          console.log(document.querySelector('.nav'))
           document.querySelectorAll('.nav > ul > li').forEach(item => {item.classList.toggle('li_active')})
       })
 })
@@ -12,8 +12,8 @@ document.querySelectorAll('.submenu-link').forEach(item => item.addEventListener
 
 document.querySelectorAll(".bar li a:not(.submenu-link)").forEach(item => item.addEventListener('click', () => {
   console.log(1);
+  document.body.classList.toggle('body_overflow')
   document.querySelector('.nav').classList.toggle('nav_active')
-  console.log(document.querySelector('.nav'))
   document.querySelectorAll('.nav > ul > li').forEach(item => {item.classList.toggle('li_active')})
 }))
 document.querySelectorAll('.show_more')[0].addEventListener('click', ()=>{

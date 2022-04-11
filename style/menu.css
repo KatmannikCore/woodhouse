@@ -6,6 +6,7 @@
  */
 
 .nav {
+    position: static;
     /*  ширна произвольная, не стесняйтесь экспериментировать */
     width: 100%;
     min-width: 320px;
@@ -111,17 +112,6 @@
 }
 
 
-/**
- * изменение положения переключателя 
- * при просмотре на мобильных устройствах
- * когда навигация раскрыта, распологаем внутри панели
-*/
-
-/* [id='nav-toggle']:checked ~ .nav > .nav-toggle {
-    left: auto;
-    right: 2px;
-    top: 1em;
-} */
 
 
 /**
@@ -142,6 +132,9 @@
     -moz-box-shadow:4px 0px 20px 0px rgba(0,0,0, 0.5);
     -webkit-box-shadow:4px 0px 20px 0px rgba(0,0,0, 0.5);
     overflow-y: auto;
+}
+.body_overflow{
+    overflow-x: hidden ;
 }
 
 /* 
