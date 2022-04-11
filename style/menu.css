@@ -134,7 +134,8 @@
     overflow-y: auto;
 }
 .body_overflow{
-    overflow-x: hidden ;
+    overflow: hidden ;
+    height: 100vh;
 }
 
 /* 
