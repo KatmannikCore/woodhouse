@@ -120,10 +120,9 @@ header .submenu a{
     left: 32%;
     top: 20%;
     z-index: 5;
-    height: 300px !important;
     transform: scaleY(0);
     transform-origin: 0 0;
-    transition: .5s ease-in-out;
+    /* transition: .5s ease-in-out; */
     margin: 45px 34px 51px 34px;
 }
 header .submenu{
@@ -142,6 +141,7 @@ header .submenu{
 } */
 .show_submenu{
     opacity: 1;
+    position: static;
     transform: scaleY(1);
 }
 .submenu-link:hover:after{

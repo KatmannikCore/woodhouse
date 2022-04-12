@@ -1,8 +1,9 @@
 
 document.querySelectorAll('.open-menu').forEach(item => {
       item.addEventListener('click',(e) => {
-          e.target.classList.toggle("button_hidden")
+        document.querySelector(".open-menu").classList.toggle("button_hidden")
           console.log(1);
+          document.querySelectorAll(".submenu").forEach(item => item.classList.remove('show_submenu'))
           document.body.classList.toggle('body_overflow')
           document.querySelector('.nav').classList.toggle('nav_active')
           document.querySelectorAll('.nav > ul > li').forEach(item => {item.classList.toggle('li_active')})
@@ -13,7 +14,8 @@ document.querySelectorAll('.submenu-link').forEach(item => item.addEventListener
 
 document.querySelectorAll(".bar li a:not(.submenu-link)").forEach(item => item.addEventListener('click', (e) => {
   console.log(1);
-  e.target.classList.toggle("button_hidden")
+  document.querySelectorAll(".submenu").forEach(item => item.classList.remove('show_submenu'))
+  document.querySelector(".open-menu").classList.toggle("button_hidden")
   document.body.classList.toggle('body_overflow')
   document.querySelector('.nav').classList.toggle('nav_active')
   document.querySelectorAll('.nav > ul > li').forEach(item => {item.classList.toggle('li_active')})
