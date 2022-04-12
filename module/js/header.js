@@ -18,7 +18,7 @@ header.innerHTML = `<div class="main_header">
                         <div class="line"></div>
                         <div class="menu">
                         <ul>
-                            <li><a class="first" href="">ГЛАВНАЯ</a></li>
+                            <li><a class="first" href="../../../">ГЛАВНАЯ</a></li>
                             <li><a href="#what_can_we_do" href="">ЧТО МЫ УМЕЕМ</a></li>
                             <li><a class="submenu-link">УCЛУГИ</a>
                                 <ul class="submenu">

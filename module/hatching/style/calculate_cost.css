@@ -23,9 +23,10 @@
 .calculate_cost .text{
     flex-basis: 100%;
     display: flex;
-    justify-content:center;
+    justify-content: space-around;
     padding-top: 88px;
     flex: 0 1 100%;
+    width: 80%;
 }
 .calculate_cost .text .big_text{
     margin: 0;
@@ -33,9 +34,6 @@
     width: 470px;
     text-align: left;
     margin-right: 127px;
-    display: flex;
-    justify-content: center;
-    align-items:flex-end;
 }
 .calculate_cost .text .gray_text{
     width: 400px;
@@ -87,7 +85,7 @@ form {
     width: 80%;
     margin: 0 auto;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 form .checkboxes{
     display: flex;
@@ -206,6 +204,9 @@ form div:not(:first-child){
     }
 }
 @media screen and (max-width: 750px){
+    .calculate_cost .text{
+        width: 100%;
+    }
     .calculate_cost{
         height: 100%;
     }

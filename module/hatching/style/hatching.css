@@ -1,5 +1,7 @@
 .sub_header {
     background: url(../img/backg_subheader.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .sub_header div:first-child p:last-child{
     border-radius: 10px;
