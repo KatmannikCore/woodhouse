@@ -137,6 +137,9 @@
     overflow: hidden ;
     height: 100vh;
 }
+.button_hidden{
+    opacity: 0;
+}
 
 /* 
  * смещение контента страницы
