@@ -84,6 +84,9 @@ footer .footer > div:nth-child(2){
     font-size: 12px;
     line-height: 207.5%;
 }
+footer .footer > div:nth-child(2) a{
+    color: #333;
+}
 footer .footer > div:nth-child(3) > div{
     display: flex;
     justify-content: space-around;

@@ -13,7 +13,7 @@ header.innerHTML = `<div class="main_header">
                             <a href="tel:+79169168078" rel="nofollow" >+7 (916) 916-80-78</a>
                             <p>info@woodhouse495.ru</p>
                         </div>
-                        <button class="Request-call" style="z-index:999"> <a href="#popup"  class="header__phone popup-link">Заказать звoнок</a> </button>
+                        <button onclick="window.location.href='#popup'" class="Request-call" style="z-index:999"> <a href="#popup" class="header__phone popup-link">Заказать звoнок</a> </button>
                     </div>
                     <div class="line"></div>
                     <div class="menu">

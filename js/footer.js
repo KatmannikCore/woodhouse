@@ -37,14 +37,13 @@ footer.innerHTML = `<div class="our_contacts">
                             <p class="gray_text">Профессиональная отделка<br>  деревянных домов под ключ <br> в Москве и Московской области</p>
                         </div>
                         <div>
-                            <p>главная</p>
-                            <p>что мы умеем </p>
-                            <p>услуги</p>
-                            <p>строительство домов</p>
-                            <p>отзывы</p>
-                            <p>этапы работы</p>
-                            <p>выполненные проекты</p>
-                            <p>контакты</p>
+                            <a href="">главная</a>
+                            <a href=#what_can_we_do">что мы умеем </a>
+                            <a href="#homes">строительство домов</a>
+                            <a href="#reviews">отзывы</a>
+                            <a href="#how_we_work">этапы работы</a>
+                            <a href="#completed_projects">выполненные проекты</a>
+                            <a href="#our_contacts">контакты</a>
                         </div>
                         <div>
                             <div class="social_media">
@@ -55,7 +54,7 @@ footer.innerHTML = `<div class="our_contacts">
                             </div>
                             <a href="tel:+7 (916) 916-80-78" rel="nofollow" class="number">+7 (916) 916-80-78</a>
                             <p class="gray_text">info@woodhouse495.ru</p>
-                            <button class="Request-call" >Заказать званок</button>
+                            <button onclick="window.location.href='#popup'" class="Request-call" style="z-index:999"> Заказать звoнок </button>
                         </div>
                         <div>
                             <a href="">договор оферты</a>

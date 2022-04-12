@@ -13,7 +13,7 @@ header.innerHTML = `<div class="main_header">
                             <a  href="tel:+7 (916) 916-80-78" rel="nofollow">+7 (916) 916-80-78</a>
                             <p>info@woodhouse495.ru</p>
                         </div>
-                        <button class="Request-call" style="z-index:999"> <a href="#popup" class="header__phone popup-link">Заказать звoнок</a> </button>
+                            <button onclick="window.location.href='#popup'" class="Request-call" style="z-index:999"> <a href="#popup" class="header__phone popup-link">Заказать звoнок</a> </button>
                         </div>
                         <div class="line"></div>
                         <div class="menu">
@@ -22,7 +22,7 @@ header.innerHTML = `<div class="main_header">
                             <li><a href="#what_can_we_do" href="">ЧТО МЫ УМЕЕМ</a></li>
                             <li><a class="submenu-link">УCЛУГИ</a>
                                 <ul class="submenu">
-                                    <li><a  href="../hatching/hatching.html">Шлифовка деревянного дома</a></li>
+                                    <li><a href="../hatching/hatching.html">Шлифовка деревянного дома</a></li>
                                     <li><a href="../hatching/painting.html">Покраска деревянного дома</a></li>
                                     <li><a href="../hatching/kosyachka.html">Окосячка деревянного дома</a></li>
                                     <li><a href="../hatching/roof.html">Кровельные работы</a></li>

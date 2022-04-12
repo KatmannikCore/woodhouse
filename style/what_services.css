@@ -14,6 +14,7 @@
 }
 .what_services .container_main div{
     width: 20%;
+    cursor: pointer;
     margin-right: 40px;
     margin-bottom: 45px;
 }

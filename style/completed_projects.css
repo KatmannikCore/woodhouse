@@ -178,6 +178,7 @@
   text-decoration: none;
 }
 .wrapper_inst{
+  height: 100px;
   display: flex;
   justify-content: center;
 }

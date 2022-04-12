@@ -27,6 +27,11 @@
     border: 0px;
     margin-bottom: 16px;
 }
+input:focus{
+   outline: none;
+
+border: solid 2px #84C57A;
+}
 .order p:nth-child(1){
     margin-top: 40px;
     font-weight: 500;
