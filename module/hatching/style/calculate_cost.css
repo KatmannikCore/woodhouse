@@ -166,6 +166,7 @@ form .number img{
 form .checkboxes > div > div > div{
     margin-right: 75px;
     margin-bottom: 27px;
+    width: 300px;
 }
 form div:not(:first-child){
     flex: 0 1 30%;
@@ -204,6 +205,21 @@ form div:not(:first-child){
     }
 }
 @media screen and (max-width: 750px){
+    form div, .select-wrapper{
+        margin: 0 auto;
+    }
+    form div p{
+        text-align: center;
+    }
+    form .checkboxes > div > div > div{
+        margin-right: 0 !important;
+    }
+    .select-wrapper select{
+        width: 100%;
+    }
+    form .button_one{
+       margin-top: 20px;
+    }
     .calculate_cost .text{
         width: 100%;
     }

@@ -8,7 +8,8 @@ document.querySelectorAll('.open-menu').forEach(item => {
           document.querySelectorAll('.nav > ul > li').forEach(item => {item.classList.toggle('li_active')})
       })
 })
-document.querySelectorAll('.submenu-link').forEach(item => item.addEventListener('click', () => {
+document.querySelectorAll('.submenu-link').forEach(item => item.addEventListener('click', (e) => {
+  e.target.classList.toggle('submenu-link_hover')
   document.querySelectorAll(".submenu").forEach(item => item.classList.toggle('show_submenu'))}))
 
 document.querySelectorAll(".bar li a:not(.submenu-link)").forEach(item => item.addEventListener('click', (e) => {

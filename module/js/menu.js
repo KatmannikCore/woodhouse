@@ -37,3 +37,6 @@ menu.innerHTML = `<p class="open-menu" style="z-index: 4444;">&#9776</p>
                         <img src="img/header/social_media.png" alt="">
                     </div>`
 document.body.prepend(menu)
+
+
+let Name = "Маша";

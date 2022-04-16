@@ -16,6 +16,7 @@
 .how_we_work .button{
     display: flex;
     justify-content: center;
+    height: 150px;
     padding-top: 40px;
 }
 

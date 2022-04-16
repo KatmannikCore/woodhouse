@@ -78,6 +78,7 @@ header .line{
     border: 1px solid #DDE3ED;
 }
 header .menu a , .nav .menu a{
+    cursor: pointer;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
@@ -145,7 +146,7 @@ header .submenu{
 .nav .show_submenu{
     position: static;
 }
-.submenu-link:hover:after{
+.submenu-link_hover:after{
     content: url('../img/header/arrow2.png');
 }
 
