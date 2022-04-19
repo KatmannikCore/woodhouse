@@ -5,6 +5,9 @@
 .sub_header{
     background: url(../img/kosyachka/backg_mobail.png);
 }
+.information{
+    margin-top: 60px;
+}
 @media screen and (max-width: 750px){
     .sub_header {
         flex-direction: column;

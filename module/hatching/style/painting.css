@@ -41,6 +41,9 @@
     width: 240px;
     margin-left: 50px;
 }
+form .big_text{
+    width: 600px;
+}
 @media screen and (max-width: 950px){
     .color .big_text{
         text-align: center;

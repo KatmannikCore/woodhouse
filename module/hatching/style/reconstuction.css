@@ -1,8 +1,3 @@
-/* .castle{
-    background: url('../img/reconstuction/castle.png')  no-repeat ;
-    background-size: 100% 100%;
-    height: 1000px;
-} */
 .castle img{
     height: 100%;
 }
@@ -48,7 +43,13 @@
     backdrop-filter: blur(19px);
     padding: 15px 30px;
 }
+.manufacturers > div {
+   flex-basis: 20%;
+}
 @media screen and (max-width: 750px){
+    .manufacturers > div {
+        flex-basis: 40%;
+     }
     .castle{
         display: none;
     }

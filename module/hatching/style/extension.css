@@ -1,7 +1,16 @@
 .sub_header {
     background: url(../img/extension/backg.png);
 }
+.manufacturers > div {
+    flex-basis: 20%;
+ }
+ form .big_text {
+     width: 600px;
+ }
 @media screen and (max-width: 750px){
+    .manufacturers > div {
+        flex-basis: 40%;
+     }
     .sub_header {
         flex-direction: column;
         background: url(../img/extension/backg_mobail.png);
