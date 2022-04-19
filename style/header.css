@@ -183,6 +183,10 @@ header .submenu{
     border: 3px #FDDCC4 solid;
 }
 @media screen and (max-width: 600px){
+    Header .menu ul:not(.submenu){
+        flex-direction: column;
+        height: 100%;
+    }
 }
 @media screen and (max-width: 500px){
     header .menu,header .contacts{
