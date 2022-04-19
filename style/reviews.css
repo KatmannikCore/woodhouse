@@ -23,7 +23,6 @@ iframe{
     justify-content: center;
 }
 .manufacturers > div{
-    flex-basis: 12%;
     align-self: center;
     margin-left: 40px;
 }

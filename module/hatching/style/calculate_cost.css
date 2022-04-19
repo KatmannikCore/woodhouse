@@ -80,7 +80,18 @@
     top: 22px;
     border-top-color: #FFF;
 }
+form .big_text{
+    margin-top: 0;
+    width: 400px;
+    text-align: left;
+}
+form .gray_text{
+    width: 330px;
+    text-align: left;
+}
 form {
+    padding-bottom: 50px;
+    padding-top: 100px;
     display: flex;
     width: 80%;
     margin: 0 auto;
@@ -171,11 +182,21 @@ form .checkboxes > div > div > div{
 form div:not(:first-child){
     flex: 0 1 30%;
 }
-
-@media screen and (max-width: 1350px){
+.calculate_cost form > div:first-child .gray_text{
+    display: none;
+}
+@media screen and (max-width: 1650px){
     form{
         width: 100%;
     }
+}
+@media screen and (max-width: 1350px){
+.calculate_cost form > div:first-child .gray_text{
+    display: block;
+}
+.calculate_cost .sub_form .gray_text{
+    display: none;
+}
 }
 @media screen and (max-width: 1000px){
     .calculate_cost .text{
@@ -195,9 +216,13 @@ form div:not(:first-child){
         margin-top: 30px;
 
     }
-    .calculate_cost .text .big_text {
+    .calculate_cost  .big_text {
         text-align: center;
         display: block;
+        width:100% ;
+    }
+    .calculate_cost .gray_text{
+        text-align: center;
         width:100% ;
     }
     form .sub_form{
