@@ -194,42 +194,19 @@ form div:not(:first-child){
 .calculate_cost form > div:first-child .gray_text{
     display: block;
 }
+.select-wrapper{
+    display: flex;
+}
 .calculate_cost .sub_form .gray_text{
     display: none;
 }
-}
-@media screen and (max-width: 1000px){
-    .calculate_cost .text{
-        flex-direction: column;
-    }
-    form{
-        flex-direction: column;
-        max-width: 100%;
-        align-items: center;
-    }
-    .calculate_cost .text .gray_text {
-        position: static;
-        text-align: center;
-        justify-content: center;
-        display: block;
-        margin-bottom: 64px;
-        margin-top: 30px;
 
+
+@media screen and (max-width: 1350px){
+    form p {
+        width: 100% !important;
+        text-align: center !important;
     }
-    .calculate_cost  .big_text {
-        text-align: center;
-        display: block;
-        width:100% ;
-    }
-    .calculate_cost .gray_text{
-        text-align: center;
-        width:100% ;
-    }
-    form .sub_form{
-        margin-left: 57px;
-    }
-}
-@media screen and (max-width: 750px){
     form div, .select-wrapper{
         margin: 0 auto;
     }
@@ -276,7 +253,4 @@ form div:not(:first-child){
         margin-right: 0 ;
         margin-left: 0;
     }
-}
-@media screen and (max-width: 450px){
-
 }
