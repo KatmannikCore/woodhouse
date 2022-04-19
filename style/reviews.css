@@ -127,9 +127,10 @@ iframe{
     .manufacturers > div {
         flex-basis: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         margin: 0;
         padding-bottom: 20px;
+        margin: 10px;
     }
     .manufacturers > div img{
         align-self: center;
