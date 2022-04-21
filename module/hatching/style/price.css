@@ -1,5 +1,5 @@
 .price{
-    max-width: 80%;
+    max-width: 60%;
     margin: 0 auto;
 }
 .price table tr td:first-child{
@@ -13,8 +13,11 @@
 .price table tr td:first-child p{
     width: 580px;
 }
+form .big_text {
+    width: 500px ;
+}
 .price table tr td:first-child {
-    padding: 26px 110px;
+    padding: 26px 10px;
     font-weight: 500;
     font-size: 16px;
 }

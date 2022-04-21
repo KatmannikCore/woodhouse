@@ -191,16 +191,16 @@ form div:not(:first-child){
     }
 }
 @media screen and (max-width: 1350px){
-.calculate_cost form > div:first-child .gray_text{
-    display: block;
+    .calculate_cost form > div:first-child .gray_text{
+        display: block;
+    }
+    .select-wrapper{
+        display: flex;
+    }
+    .calculate_cost .sub_form .gray_text{
+        display: none;
+    }
 }
-.select-wrapper{
-    display: flex;
-}
-.calculate_cost .sub_form .gray_text{
-    display: none;
-}
-
 
 @media screen and (max-width: 1350px){
     form p {

@@ -1,5 +1,10 @@
 .castle img{
     height: 100%;
+    width: 100%;
+}
+.sub_str{
+    margin-top: 7px;
+    display: block;
 }
 .castle .gray_text{
     width: 550px;
@@ -37,6 +42,8 @@
 }
 .sub_header {
     background: url(../img/reconstuction/backg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .sub_header div:first-child p:last-child {
     background: rgba(255, 255, 255, 0.4);
