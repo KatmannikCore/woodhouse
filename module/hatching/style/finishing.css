@@ -1,5 +1,7 @@
 .sub_header {
     background: url(../img/finishing/backg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .information_finishing > div {
@@ -29,7 +31,8 @@
     text-align: left;
 }
 .information_finishing .green{
-    color: #ADD8A7;
+    color: #74ad6c;
+    font-weight: bold;
 }
 .statistics_finishing {
     display: flex;
