@@ -19,7 +19,13 @@ document.querySelectorAll(".bar li a:not(.submenu-link)").forEach(item => item.a
   document.querySelector('.nav').classList.toggle('nav_active')
   document.querySelectorAll('.nav > ul > li').forEach(item => {item.classList.toggle('li_active')})
 }))
-document.querySelectorAll('.show_more')[0].addEventListener('click', ()=>{
+document.querySelectorAll('.show_more')[0].addEventListener('click', (e)=>{
+  console.log(e.target.innerHTML)
+  if(e.target.innerHTML === "Посмотреть ещё"){
+    e.target.innerHTML = "СКРЫТЬ"
+  }else{
+    e.target.innerHTML = "Посмотреть ещё"
+  }
   document.querySelector('.container_add').classList.toggle('none_cont');
 })
 

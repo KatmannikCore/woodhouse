@@ -21,6 +21,7 @@
         background: url(../img/backg_mobail.png);
         background-repeat: no-repeat;
         height: 100%;
+        background-size: 100% 100%;
     }
     .calculate_cost .text{
         padding-top: 0 !important;

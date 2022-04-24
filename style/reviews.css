@@ -135,7 +135,6 @@ iframe{
         display: flex;
         justify-content: space-around;
         margin: 0;
-        padding-bottom: 20px;
         margin: 10px;
     }
     .manufacturers > div img{

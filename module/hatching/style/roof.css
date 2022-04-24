@@ -15,6 +15,9 @@
     }
 }
 @media screen and (max-width: 750px){
+    td span{
+        color: #96ABBE;
+    }
     .sub_header {
         flex-direction: column;
         background: url(../img/roof/backg_mobail.png);
