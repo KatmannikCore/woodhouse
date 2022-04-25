@@ -46,6 +46,7 @@
     width: 250px;
     margin-top: 22px;
     border-radius: 8px;
+    margin-bottom: 40px;
 }
 .statistics_finishing p:first-child {
     font-size: 40px;
