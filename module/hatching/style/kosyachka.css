@@ -4,9 +4,16 @@
 }
 .sub_header{
     background: url(../img/kosyachka/backg_mobail.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .information{
     margin-top: 60px;
+}
+.manufacturers > div {
+    align-self: center;
+    margin-left: 40px;
+    flex-basis: 20%;
 }
 @media screen and (max-width: 750px){
     .sub_header {

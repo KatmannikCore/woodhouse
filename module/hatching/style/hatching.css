@@ -13,6 +13,11 @@
     text-align: left;
     margin-top: 0 !important;
 }
+.manufacturers > div {
+    align-self: center;
+    margin-left: 40px;
+    flex-basis: 20%;
+}
 @media screen and (max-width: 750px){
     .sub_header .gray_cont,.sub_header .big_text{
         text-align: center;

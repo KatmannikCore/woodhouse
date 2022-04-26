@@ -4,7 +4,10 @@
 }
 .sub_header{
     background: url(../img/painting/backg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
+
 @media screen and (max-width: 750px){
     .sub_header {
         flex-direction: column;
@@ -46,6 +49,11 @@ form .big_text{
 }
 .description .big_text{
     margin-top: 0;
+}
+.manufacturers > div {
+    align-self: center;
+    margin-left: 40px;
+    flex-basis: 20%;
 }
 @media screen and (max-width: 950px){
     .color .big_text{

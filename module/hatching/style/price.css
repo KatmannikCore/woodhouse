@@ -24,7 +24,7 @@ form .big_text {
 .price table tr td:last-child {
     padding: 26px 130px;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 18px;
 }
 .price table tr:nth-child(odd){
     background: #fafafa;

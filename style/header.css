@@ -182,6 +182,9 @@ header .submenu{
     background-color: #F1CDB3;
     border: 3px #FDDCC4 solid;
 }
+header .social_media {
+    margin-top: 23px;
+}
 @media screen and (max-width: 600px){
     Header .menu ul:not(.submenu){
         flex-direction: column;
