@@ -1,4 +1,4 @@
-
+try{
 document.querySelectorAll('.open-menu').forEach(item => {
       item.addEventListener('click',(e) => {
          document.querySelector(".open-menu").classList.toggle("button_hidden")
@@ -64,4 +64,7 @@ try{
   })  
 }catch(e){
   console.log(e);
+}
+}catch(e){
+  
 }
