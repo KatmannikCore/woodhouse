@@ -239,6 +239,7 @@ hr{
   }
   .big_text {
     font-size: 30px !important;
+    margin: 40px;
   }
 }
 input{

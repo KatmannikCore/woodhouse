@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="./style/absolute_img.css">
     <link rel="stylesheet" href="./style/menu.css">
     <link rel="stylesheet" href="./style/popup.css">
+    <link rel="stylesheet" href="./style/modal.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <title>Document</title>
 </head>
@@ -340,9 +341,6 @@
                 <button class="button_one">получить консультацию по строительству дома</button>
             </div>
             <div style="flex: 1 1 auto;"></div>
-            <div class="circle_wrapper">
-                <img src="img/homes/circle.png" alt="123">
-            </div>
         </div>
     </section>
     <section class="reviews">
@@ -539,13 +537,49 @@
             </div>
         </div>
     </section>
+    <div class="primer_modal_zatemn" hidden>
+        <div class="primer_modal_fixed">
+            <div class="primer_modal_main">
+                <div class="primer_modal_content">
+                    <a class="primer_modal_content_close"><img src="img/modal/primer_close.png" alt=""></a>
+                    <!-- <img class="primer_modal_pict_srt" src="img/modal/primer_pict_str.png" alt=""> -->
+                    <div class="primer_modal_content_items">
+                        <div class="primer_modal_content_item">
+                            <img class="primer_modal_content_big_pict" src="img/modal/primer_pict_big.jpg" alt="">
+                            <div class="primer_modal_content_down_pictures">
+                                <img src="img/modal/primer_pict_small.jpg" alt="">
+                                <img src="img/modal/primer_pict_small2.jpg" alt="">
+                                <img src="img/modal/primer_pict_small3.jpg" alt="">
+                                <img src="img/modal/primer_pict_small4.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="primer_modal_content_item">
+                            <h1 class="primer_modal_content_tittle">«Название проекта»</h1>
+                            <div class="primer_modal_content_adres_rect">
+                                <p>Московская обл., р-н Серпуховский, д. Воздвиженка</p>
+                            </div>
+                            <p class="primer_modal_content_text">
+                                Двухэтажный коттедж “Адмирал” впечатляет с первого взгляда. Он подходит для узких участков, при этом обладает большой площадью - 205 квадратных метров. Дом выполнен в классическом стиле, и в стандартном проекте всё в нём играет на контрастах: двускатная крыша, дерево и камень на фасадах, чёрно-белая расцветка.
+                            </p>
+                            <div class="button_cont">
+                                <button class="button_one">получить бесплатную <br> консультацию специалиста</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bacround" hidden ></div>
+</style>
+<script src="./js/modal.js"></script>
 <script src="./js/footer.js"></script>
 <script src="./js/header.js"></script>
 <script src="./js/menu.js"></script>
 <script src="./js/completed_projects.js"></script>
 <script src="./js/how_we_work.js"></script>
 <script src="./js/popup.js"></script>
-<script src="./script.js"></script>
+<!-- <script src="./script.js"></script> -->
 <script>
     function isMobile() {
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {

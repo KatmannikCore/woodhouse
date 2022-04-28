@@ -10,6 +10,10 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+.manufacturers > div{
+    margin: 0 auto;
+    margin-top: 20px;
+}
 
 @media screen and (max-width: 650px){
     .reviews .manufacturers > div{ 

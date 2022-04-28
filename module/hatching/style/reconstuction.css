@@ -6,6 +6,10 @@
     margin-top: 7px;
     display: block;
 }
+.manufacturers > div{
+    margin: 0 auto;
+    margin-top: 20px;
+}
 .castle .gray_text{
     width: 550px;
     margin: 0 auto;

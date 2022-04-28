@@ -3,6 +3,9 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+.sub_header .big_text{
+    margin: 30px;
+}
 .manufacturers > div {
     flex-basis: 20%;
  }

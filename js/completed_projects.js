@@ -8,37 +8,37 @@ completed_projects.innerHTML = `
                             <img src="img/completed_projects/1.png" alt="">
                             <p>«Название проекта»</p>
                             <p class="gray_text">Небольшое описание проекта <br> всего в две-три строчки</p>
-                            <a class="link" href="">посмотреть подробнее</a>
+                            <a class="link" onclick="CreateWindow(1)">посмотреть подробнее</a>
                         </div>
                         <div>
                             <img src="img/completed_projects/2.png" alt="">
                             <p>«Название проекта»</p>
                             <p class="gray_text">Небольшое описание проекта <br> всего в две-три строчки</p>
-                            <a  class="link" href="">посмотреть подробнее</a>
+                            <a  class="link" onclick="CreateWindow(1)">посмотреть подробнее</a>
                         </div>
                         <div>
                             <img src="img/completed_projects/3.png" alt="">
                             <p>«Название проекта»</p>
                             <p class="gray_text">Небольшое описание проекта <br> всего в две-три строчки</p>
-                            <a  class="link" href="">посмотреть подробнее</a>
+                            <a  class="link" onclick="CreateWindow(1)">посмотреть подробнее</a>
                         </div>
                         <div>
                             <img src="img/completed_projects/4.png" alt="">
                             <p>«Название проекта»</p>
                             <p class="gray_text ">Небольшое описание проекта <br> всего в две-три строчки</p>
-                            <a class="link"  href="">посмотреть подробнее</a>
+                            <a class="link" onclick="CreateWindow(1)">посмотреть подробнее</a>
                         </div>
                         <div>
                             <img src="img/completed_projects/5.png" alt="">
                             <p>«Название проекта»</p>
                             <p class="gray_text">Небольшое описание проекта <br> всего в две-три строчки</p>
-                            <a  class="link" href="">посмотреть подробнее</a>
+                            <a  class="link" onclick="CreateWindow(1)">посмотреть подробнее</a>
                         </div>
                         <div>
                             <img src="img/completed_projects/6.png" alt="">
                             <p>«Название проекта»</p>
                             <p class="gray_text">Небольшое описание проекта <br> всего в две-три строчки</p>
-                            <a  class="link" href="">посмотреть подробнее</a>
+                            <a  class="link" onclick="CreateWindow(1)">посмотреть подробнее</a>
                         </div>
                     </div>
                 </div>
