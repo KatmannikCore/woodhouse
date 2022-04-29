@@ -41,4 +41,9 @@
     .sub_header .big_text{
         font-size: 30px !important;
     }
+    .manufacturers > div {
+        align-self: center;
+        margin-left: 40px;
+        flex-basis: 40%;
+    }
 }

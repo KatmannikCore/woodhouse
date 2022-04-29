@@ -228,6 +228,14 @@ hr{
 
 }
 @media screen and (max-width: 750px){
+  .manufacturers > div {
+    margin: 0 !important;
+
+}
+.manufacturers > div img{
+  max-width: 80%;
+  margin: 10px;
+}
   .order_container_button{
     height:1100px !important;
 
@@ -239,7 +247,6 @@ hr{
   }
   .big_text {
     font-size: 30px !important;
-    margin: 40px;
   }
 }
 input{

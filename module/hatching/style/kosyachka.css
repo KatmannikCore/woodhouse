@@ -30,6 +30,11 @@
     .what_is_it .big_text{
         margin-top: 100px;
     }
+    .manufacturers > div {
+        align-self: center;
+        margin-left: 40px;
+        flex-basis: 40%;
+    }
 }
 @media screen and (max-width: 750px){
     .what_is_it{
