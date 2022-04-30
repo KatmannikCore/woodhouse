@@ -32,7 +32,7 @@ p {
 .primer_modal_main {
     width: auto;
     height: 120%;
-    background: url('../img/modal/bachg.png') center no-repeat;
+    background: url('../img/modal/primer_pict_back.jpg') center no-repeat;
     background-size: 100%;
     border-radius: 10px;
 }
@@ -59,7 +59,7 @@ p {
     position: absolute;
     z-index: 2;
     right: 0;
-    margin-right: 9px;
+    margin-right: 120px;
     bottom: 0;
     margin-bottom: 111px;
 }
@@ -68,6 +68,7 @@ p {
     display: flex;
     justify-content: flex-start;
     padding-top: 58px;
+    margin-right: 70px;
 }
 
 .primer_modal_content_item:first-child {
