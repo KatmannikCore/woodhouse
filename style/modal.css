@@ -59,9 +59,9 @@ p {
     position: absolute;
     z-index: 2;
     right: 0;
-    margin-right: 120px;
+    margin-right: 12px;
     bottom: 0;
-    margin-bottom: 111px;
+    margin-bottom: 81px;
 }
 
 .primer_modal_content_items {
@@ -209,7 +209,13 @@ p {
     left: 0;
     right: 0;
 }
+.primer_modal_main{
+    position: relative;
+}
 @media screen and (max-width: 1000px){
+    .primer_modal_pict_srt{
+        display: none;
+    }
     .primer_modal_main {
         background: white;
         background-size: 100% 100%;
@@ -218,6 +224,7 @@ p {
     .primer_modal_content_items{
         justify-content: center;
         flex-direction: column;
+        margin-right: 0;
     }
     .primer_modal_content_item:first-child {
          margin-right: 0px; 
