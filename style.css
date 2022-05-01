@@ -115,7 +115,7 @@ body{
   }
 }
 @media screen and (max-width: 475px){
-  .content-area p.gradient_hidden, .content-area p.gradient_hidden2{
+   p.gradient_hidden,  p.gradient_hidden2{
     background: linear-gradient(#000, #fff );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -127,6 +127,9 @@ body{
     opacity: 1;
   }
 
+}
+a{
+  cursor: pointer;
 }
 .button_one{
   background:url('./img/header/order_button.png') ;

@@ -26,6 +26,7 @@
 .description_finishing p:first-child{
     text-align: left;
     font-size: 18px;
+    width: 100% !important;
 }
 .information_finishing .big_text{
     text-align: left;
