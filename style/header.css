@@ -149,7 +149,48 @@ header .submenu{
 .submenu-link_hover:after{
     content: url('../img/header/arrow2.png');
 }
-
+header .submenu li:nth-child(1) a:before {
+    content: url('../img/header/icon/shlifov.png');
+    position: relative;
+    right: 5px;
+    top: 3px;
+}
+header .submenu li:nth-child(2) a:before {
+    content: url('../img/header/icon/pokras.png'); 
+    position: relative;
+    right: 5px;
+    top: 7px;
+}
+header .submenu li:nth-child(3) a:before {
+    content: url('../img/header/icon/okos.png'); 
+    position: relative;
+    right: 5px;
+    top: 3px;
+}
+header .submenu li:nth-child(4) a:before {
+    content: url('../img/header/icon/krovlya.png'); 
+    position: relative;
+    right: 5px;
+    top: 3px;
+}
+header .submenu li:nth-child(5) a:before {
+    content: url('../img/header/icon/reconstr.png'); 
+    position: relative;
+    right: 5px;
+    top: 5px;
+}
+header .submenu li:nth-child(6) a:before {
+    content: url('../img/header/icon/pristroi.png'); 
+    position: relative;
+    right: 5px;
+    top: 5px;
+}
+header .submenu li:nth-child(7) a:before {
+    content: url('../img/header/icon/planken.png'); 
+    position: relative;
+    right: 5px;
+    top: 3px;
+}
 @media screen and (max-width: 1350px){
     header{
         max-width: 100%;
